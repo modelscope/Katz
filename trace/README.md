@@ -25,13 +25,13 @@ The dataset, named `diffusion_model_request_trace.json`, is available for downlo
 To download the dataset, run the following command:
 
 ```bash
-$ modelscope download --dataset 'mental2008/T2I-Model-Serving-Request-Trace' diffusion_model_request_trace.json
+$ modelscope download --dataset 'mental2008/T2I-Model-Serving-Request-Trace' diffusion_model_request_trace.json --local_dir .
 ```
 
 Ensure you have the modelscope CLI installed. If not, install it via:
 
 ```bash
-$ pip install modelscope[framework]
+$ pip install modelscope
 ```
 
 ## Statistical Analysis
@@ -84,12 +84,24 @@ $ python adapter_loading_analysis.py --service B --cache-policy LFU
 
 Result locations:
 - LRU policy
-  - [`figures/adapter_loading_LRU_A.pdf`](./figures/adapter_loading_LRU_A.pdf)
-  - [`figures/adapter_loading_LRU_B.pdf`](./figures/adapter_loading_LRU_B.pdf)
+  - Service A: [`figures/adapter_loading_LRU_A.pdf`](./figures/adapter_loading_LRU_A.pdf)
+  - Service B: [`figures/adapter_loading_LRU_B.pdf`](./figures/adapter_loading_LRU_B.pdf)
 - LFU policy
-  - [`figures/adapter_loading_LFU_A.pdf`](./figures/adapter_loading_LFU_A.pdf)
-  - [`figures/adapter_loading_LFU_B.pdf`](./figures/adapter_loading_LFU_B.pdf)
+  - Service A: [`figures/adapter_loading_LFU_A.pdf`](./figures/adapter_loading_LFU_A.pdf)
+  - Service B: [`figures/adapter_loading_LFU_B.pdf`](./figures/adapter_loading_LFU_B.pdf)
 
-Additionally, results showing the count of unique LoRAs loaded per instance are available here:
-- [`figures/unique_loras_A.pdf`](./figures/unique_loras_A.pdf)
-- [`figures/unique_loras_B.pdf`](./figures/unique_loras_B.pdf)
+## Unique LoRA Loading Analysis
+
+Investigate the loading of unique LoRAs across different instances for both services.
+
+```bash
+# Service A
+$ python unique_lora_loading_analysis.py --service A
+
+# Service B
+$ python unique_lora_loading_analysis.py --service B
+```
+
+Result locations:
+- Service A: [`figures/unique_loras_A.pdf`](./figures/unique_loras_A.pdf)
+- Service B: [`figures/unique_loras_B.pdf`](./figures/unique_loras_B.pdf)
