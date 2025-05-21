@@ -1,0 +1,3 @@
+[submodule "diffusers-hf/src/fast_kernel/third_party/cutlass"]
+	path = diffusers-hf/src/fast_kernel/third_party/cutlass
+	url = git@github.com:NVIDIA/cutlass.git

@@ -1,0 +1,9 @@
+# Log
+log_folder: logs/diffusers-3c-2l
+# Script
+script: "baselines/run_diffusers.py"
+# Dataset
+num_prompts: 30
+# Settings
+num_controlnets: 3
+num_loras: 2

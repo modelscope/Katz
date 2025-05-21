@@ -1,0 +1,2478 @@
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+Args Namespace(num_loras=2, num_controlnets=3)
+distri_config {'world_size': 8, 'rank': 0, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=0), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6c4230>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6c7cb0>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 5, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=5), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f67be70>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e40b0>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 4, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=4), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e1af0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e13f0>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 3, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=3), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f809130>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6c3bf0>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 6, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=6), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6dc830>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6df3b0>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 2, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=2), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e5d30>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e7a30>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 7, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=7), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f80b5f0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f809570>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 1, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=1), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f505fb0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f683bb0>}
+0 by william eggleston, a long wooden bench in front of a brick wall, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.651
+[SUYI] inject_adapter time 1.642
+[SUYI] inject_adapter time 1.555
+[SUYI] inject_adapter time 1.571
+[SUYI] inject_adapter time 1.628
+[SUYI] inject_adapter time 1.526
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.609
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.566
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.740
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.907
+[SUYI] inject_adapter time 1.805
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.792
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.988
+[SUYI] inject_adapter time 0.246
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.611
+[SUYI] inject_adapter time 2.063
+[SUYI] inject_adapter time 0.121
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.940
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.129
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.963
+[SUYI] inject_adapter time 0.111
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.609
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.433
+[SUYI] inject_adapter time 0.433
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.423
+[SUYI] inject_adapter time 0.428
+[SUYI] inject_adapter time 0.411
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.407
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-runPre-run
+
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 6.07
+End2End inference latency: 11.02
+==============================
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+1 by william eggleston, a cat looking out of a window, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.514
+[SUYI] inject_adapter time 1.522
+[SUYI] inject_adapter time 1.633
+[SUYI] inject_adapter time 1.544
+[SUYI] inject_adapter time 1.578
+[SUYI] inject_adapter time 1.543
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.650
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.526
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.761
+[SUYI] inject_adapter time 1.838
+[SUYI] inject_adapter time 1.771
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.725
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+[SUYI] inject_adapter time 0.096
+[SUYI] inject_adapter time 1.762
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.103
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.912
+[SUYI] inject_adapter time 0.096
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.171
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.443
+[SUYI] inject_adapter time 0.462
+[SUYI] inject_adapter time 1.919
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.600
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.579
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.538
+[SUYI] inject_adapter time 1.889
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.545
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.118
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.466
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.410
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.45
+End2End inference latency: 10.66
+==============================
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+2 by william eggleston, A helicopter flies over Yosemite., 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.504
+[SUYI] inject_adapter time 1.584
+[SUYI] inject_adapter time 1.541
+[SUYI] inject_adapter time 1.560
+[SUYI] inject_adapter time 1.516
+[SUYI] inject_adapter time 1.691
+[SUYI] inject_adapter time 1.657
+[SUYI] inject_adapter time 1.584
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.869
+[SUYI] inject_adapter time 1.741
+[SUYI] inject_adapter time 1.751
+[SUYI] inject_adapter time 1.790
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.938
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.104
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.745
+[SUYI] inject_adapter time 1.824
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.881
+[SUYI] inject_adapter time 0.103
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.391
+[SUYI] inject_adapter time 0.381
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.390
+[SUYI] inject_adapter time 0.401
+[SUYI] inject_adapter time 0.391
+[SUYI] inject_adapter time 0.376
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.394
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.411
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.28
+End2End inference latency: 10.27
+==============================
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+3 by william eggleston, a handsaw on a table, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.600
+[SUYI] inject_adapter time 1.559
+[SUYI] inject_adapter time 1.552
+[SUYI] inject_adapter time 1.565
+[SUYI] inject_adapter time 1.642
+[SUYI] inject_adapter time 1.612
+[SUYI] inject_adapter time 1.611
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.628
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 2.062
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.094
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.922
+[SUYI] inject_adapter time 1.925
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.972
+[SUYI] inject_adapter time 0.093
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.987
+[SUYI] inject_adapter time 1.934
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.382
+[SUYI] inject_adapter time 1.905
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.108
+[SUYI] inject_adapter time 0.111
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.406
+[SUYI] inject_adapter time 0.416
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.429
+[SUYI] inject_adapter time 2.014
+[SUYI] inject_adapter time 0.400
+[SUYI] inject_adapter time 0.412
+[SUYI] inject_adapter time 0.384
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.115
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.418
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.61
+End2End inference latency: 10.86
+==============================
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 by william eggleston, A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.534
+[SUYI] inject_adapter time 1.536
+[SUYI] inject_adapter time 1.548
+[SUYI] inject_adapter time 1.528
+[SUYI] inject_adapter time 1.625
+[SUYI] inject_adapter time 1.701
+[SUYI] inject_adapter time 1.694
+[SUYI] inject_adapter time 1.599
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.751
+[SUYI] inject_adapter time 1.716
+[SUYI] inject_adapter time 1.715
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.858
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.103
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.812
+[SUYI] inject_adapter time 1.893
+[SUYI] inject_adapter time 0.103
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.761
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.848
+[SUYI] inject_adapter time 0.096
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.096
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.407
+[SUYI] inject_adapter time 0.391
+[SUYI] inject_adapter time 0.108
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.395
+[SUYI] inject_adapter time 0.397
+[SUYI] inject_adapter time 0.416
+[SUYI] inject_adapter time 0.445
+[SUYI] inject_adapter time 0.427
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.433
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.40
+End2End inference latency: 10.37
+==============================
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+5 by william eggleston, a large present with a red ribbon, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.523
+[SUYI] inject_adapter time 1.681
+[SUYI] inject_adapter time 1.542
+[SUYI] inject_adapter time 1.519
+[SUYI] inject_adapter time 1.506
+[SUYI] inject_adapter time 1.561
+[SUYI] inject_adapter time 1.601
+[SUYI] inject_adapter time 1.694
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.718
+[SUYI] inject_adapter time 1.802
+[SUYI] inject_adapter time 1.877
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.735
+[SUYI] inject_adapter time 1.864
+[SUYI] inject_adapter time 1.790
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.938
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.097
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+[SUYI] inject_adapter time 0.114
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.891
+[SUYI] inject_adapter time 0.103
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.391
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.105
+[SUYI] inject_adapter time 0.404
+[SUYI] inject_adapter time 0.386
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.396
+[SUYI] inject_adapter time 0.402
+[SUYI] inject_adapter time 0.422
+[SUYI] inject_adapter time 0.397
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.437
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.66
+End2End inference latency: 10.59
+==============================
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+6 by william eggleston, a cat reading a book, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.504
+[SUYI] inject_adapter time 1.500
+[SUYI] inject_adapter time 1.564
+[SUYI] inject_adapter time 1.562
+[SUYI] inject_adapter time 1.619
+[SUYI] inject_adapter time 1.626
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.731
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.648
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.775
+[SUYI] inject_adapter time 1.934
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.094
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.987
+[SUYI] inject_adapter time 1.729
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.785
+[SUYI] inject_adapter time 1.807
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.376
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.111
+[SUYI] inject_adapter time 0.397
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.889
+[SUYI] inject_adapter time 1.868
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.403
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.109
+[SUYI] inject_adapter time 0.108
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.365
+[SUYI] inject_adapter time 0.393
+[SUYI] inject_adapter time 0.388
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.421
+[SUYI] inject_adapter time 0.423
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.75
+End2End inference latency: 10.65
+==============================
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+7 by william eggleston, the Beatles crossing Abbey road, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.746
+[SUYI] inject_adapter time 1.698
+[SUYI] inject_adapter time 1.697
+[SUYI] inject_adapter time 1.656
+[SUYI] inject_adapter time 1.717
+[SUYI] inject_adapter time 1.713
+[SUYI] inject_adapter time 1.802
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.695
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.914
+[SUYI] inject_adapter time 1.697
+[SUYI] inject_adapter time 1.754
+[SUYI] inject_adapter time 1.722
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.756
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.854
+[SUYI] inject_adapter time 0.098
+[SUYI] inject_adapter time 0.099
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.882
+[SUYI] inject_adapter time 0.383
+[SUYI] inject_adapter time 0.391
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.394
+[SUYI] inject_adapter time 0.373
+[SUYI] inject_adapter time 0.114
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.390
+[SUYI] inject_adapter time 0.416
+[SUYI] inject_adapter time 1.852
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.121
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.451
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.403
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.76
+End2End inference latency: 10.68
+==============================
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+8 by william eggleston, a woman singing into a microphone, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.501
+[SUYI] inject_adapter time 1.542
+[SUYI] inject_adapter time 1.624
+[SUYI] inject_adapter time 1.501
+[SUYI] inject_adapter time 1.518
+[SUYI] inject_adapter time 1.530
+[SUYI] inject_adapter time 1.551
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.690
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.701
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.877
+[SUYI] inject_adapter time 0.092
+[SUYI] inject_adapter time 1.727
+[SUYI] inject_adapter time 1.839
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.712
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.850
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.376
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.779
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.377
+[SUYI] inject_adapter time 1.867
+[SUYI] inject_adapter time 0.102
+[SUYI] inject_adapter time 0.389
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.398
+[SUYI] inject_adapter time 0.388
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.108
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.404
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.411
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.411
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters: counters:   [0, 5, 6][0, 5, 6]
+
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.61
+End2End inference latency: 10.52
+==============================
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+9 by william eggleston, a white robot passing a soccer ball to a red robot, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.534
+[SUYI] inject_adapter time 1.502
+[SUYI] inject_adapter time 1.584
+[SUYI] inject_adapter time 1.499
+[SUYI] inject_adapter time 1.513
+[SUYI] inject_adapter time 1.561
+[SUYI] inject_adapter time 1.671
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.828
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.840
+[SUYI] inject_adapter time 1.779
+[SUYI] inject_adapter time 1.803
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.773
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.097
+[SUYI] inject_adapter time 2.024
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.925
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.103
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.914
+[SUYI] inject_adapter time 0.097
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.380
+[SUYI] inject_adapter time 0.110
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.372
+[SUYI] inject_adapter time 0.394
+[SUYI] inject_adapter time 0.418
+[SUYI] inject_adapter time 0.396
+[SUYI] inject_adapter time 0.399
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 1.916
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.519
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.104
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.478
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.75
+End2End inference latency: 11.03
+==============================
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+10 by william eggleston, a plant growing on the side of a brick wall, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.526
+[SUYI] inject_adapter time 1.526
+[SUYI] inject_adapter time 1.600
+[SUYI] inject_adapter time 1.535
+[SUYI] inject_adapter time 1.572
+[SUYI] inject_adapter time 1.579
+[SUYI] inject_adapter time 1.696
+[SUYI] inject_adapter time 1.714
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.950
+[SUYI] inject_adapter time 2.093
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.094
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.096
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.942
+[SUYI] inject_adapter time 1.992
+[SUYI] inject_adapter time 2.017
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 2.041
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 2.026
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.388
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.394
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+[SUYI] inject_adapter time 0.104
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 2.126
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.390
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.387
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.101
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.396
+[SUYI] inject_adapter time 0.398
+[SUYI] inject_adapter time 0.405
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.389
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.75
+End2End inference latency: 10.70
+==============================
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+11 by william eggleston, snow covering the Great Pyramid, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.590
+[SUYI] inject_adapter time 1.732
+[SUYI] inject_adapter time 1.581
+[SUYI] inject_adapter time 1.650
+[SUYI] inject_adapter time 1.749
+[SUYI] inject_adapter time 1.688
+[SUYI] inject_adapter time 1.692
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.816
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.715
+[SUYI] inject_adapter time 1.775
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.771
+[SUYI] inject_adapter time 1.773
+[SUYI] inject_adapter time 1.861
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.935
+[SUYI] inject_adapter time 0.095
+[SUYI] inject_adapter time 0.101
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+[SUYI] inject_adapter time 1.842
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.368
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.400
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.411
+[SUYI] inject_adapter time 0.407
+[SUYI] inject_adapter time 0.404
+[SUYI] inject_adapter time 1.889
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.446
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.485
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.409
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.77
+End2End inference latency: 10.74
+==============================
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+12 by william eggleston, a photograph of a house on a mountain, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.497
+[SUYI] inject_adapter time 1.515
+[SUYI] inject_adapter time 1.517
+[SUYI] inject_adapter time 1.662
+[SUYI] inject_adapter time 1.566
+[SUYI] inject_adapter time 1.519
+[SUYI] inject_adapter time 1.534
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.666
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.877
+[SUYI] inject_adapter time 1.804
+[SUYI] inject_adapter time 1.749
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.763
+[SUYI] inject_adapter time 1.904
+[SUYI] inject_adapter time 0.094
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.811
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.961
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.103
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.096
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.385
+[SUYI] inject_adapter time 0.392
+[SUYI] inject_adapter time 0.379
+[SUYI] inject_adapter time 0.445
+[SUYI] inject_adapter time 1.856
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.464
+[SUYI] inject_adapter time 0.472
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.518
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.128
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.463
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters: counters:   [0, 5, 6][0, 5, 6]
+
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.65
+End2End inference latency: 10.57
+==============================
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+13 by william eggleston, an owl standing on a wire, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.526
+[SUYI] inject_adapter time 1.527
+[SUYI] inject_adapter time 1.590
+[SUYI] inject_adapter time 1.678
+[SUYI] inject_adapter time 1.550
+[SUYI] inject_adapter time 1.554
+[SUYI] inject_adapter time 1.555
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.685
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.731
+[SUYI] inject_adapter time 1.873
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.943
+[SUYI] inject_adapter time 0.095
+[SUYI] inject_adapter time 1.848
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.824
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.809
+[SUYI] inject_adapter time 1.799
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.364
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.098
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.818
+[SUYI] inject_adapter time 0.380
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.408
+[SUYI] inject_adapter time 0.108
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.406
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.411
+[SUYI] inject_adapter time 0.423
+[SUYI] inject_adapter time 0.432
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.412
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.57
+End2End inference latency: 10.54
+==============================
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 by william eggleston, a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.541
+[SUYI] inject_adapter time 1.607
+[SUYI] inject_adapter time 1.639
+[SUYI] inject_adapter time 1.708
+[SUYI] inject_adapter time 1.611
+[SUYI] inject_adapter time 1.597
+[SUYI] inject_adapter time 1.610
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.655
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.901
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.977
+[SUYI] inject_adapter time 0.159
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.905
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.975
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.853
+[SUYI] inject_adapter time 1.868
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.929
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.393
+[SUYI] inject_adapter time 0.102
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.125
+[SUYI] inject_adapter time 0.409
+[SUYI] inject_adapter time 2.010
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.456
+[SUYI] inject_adapter time 0.447
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.423
+[SUYI] inject_adapter time 0.430
+[SUYI] inject_adapter time 0.402
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.418
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.70
+End2End inference latency: 10.62
+==============================
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+15 by william eggleston, a subway train coming out of a tunnel, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.520
+[SUYI] inject_adapter time 1.518
+[SUYI] inject_adapter time 1.582
+[SUYI] inject_adapter time 1.560
+[SUYI] inject_adapter time 1.530
+[SUYI] inject_adapter time 1.661
+[SUYI] inject_adapter time 1.557
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.675
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.743
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.092
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.819
+[SUYI] inject_adapter time 1.909
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.758
+[SUYI] inject_adapter time 1.762
+[SUYI] inject_adapter time 0.383
+[SUYI] inject_adapter time 0.096
+[SUYI] inject_adapter time 1.801
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.799
+[SUYI] inject_adapter time 0.102
+[SUYI] inject_adapter time 0.114
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.745
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.123
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.408
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.109
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.410
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.420
+[SUYI] inject_adapter time 0.410
+[SUYI] inject_adapter time 0.392
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.401
+[SUYI] inject_adapter time 0.380
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.55
+End2End inference latency: 10.62
+==============================
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+16 by william eggleston, a stone path leading away from a fountain, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.496
+[SUYI] inject_adapter time 1.494
+[SUYI] inject_adapter time 1.571
+[SUYI] inject_adapter time 1.522
+[SUYI] inject_adapter time 1.527
+[SUYI] inject_adapter time 1.546
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.644
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.638
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.851
+[SUYI] inject_adapter time 1.783
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.910
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.744
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.812
+[SUYI] inject_adapter time 1.810
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.096
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.383
+[SUYI] inject_adapter time 0.100
+[SUYI] inject_adapter time 0.387
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.853
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.841
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.373
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.111
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.385
+[SUYI] inject_adapter time 0.101
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.402
+[SUYI] inject_adapter time 0.392
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.413
+[SUYI] inject_adapter time 0.401
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-runPre-run
+
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.63
+End2End inference latency: 10.57
+==============================
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+17 by william eggleston, an antique car by a beach, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.597
+[SUYI] inject_adapter time 1.742
+[SUYI] inject_adapter time 1.665
+[SUYI] inject_adapter time 1.608
+[SUYI] inject_adapter time 1.602
+[SUYI] inject_adapter time 1.559
+[SUYI] inject_adapter time 1.633
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.661
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.865
+[SUYI] inject_adapter time 1.951
+[SUYI] inject_adapter time 2.008
+[SUYI] inject_adapter time 1.908
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.813
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.910
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 2.065
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.103
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.098
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.101
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.103
+[SUYI] inject_adapter time 0.097
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.401
+[SUYI] inject_adapter time 1.959
+[SUYI] inject_adapter time 0.420
+[SUYI] inject_adapter time 0.443
+[SUYI] inject_adapter time 0.431
+[SUYI] inject_adapter time 0.408
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.413
+[SUYI] inject_adapter time 0.432
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.414
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]counters: 
+ [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.75
+End2End inference latency: 10.71
+==============================
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 by william eggleston, black hi-top sneakers with the Nike swoosh, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.661
+[SUYI] inject_adapter time 1.747
+[SUYI] inject_adapter time 1.735
+[SUYI] inject_adapter time 1.777
+[SUYI] inject_adapter time 1.874
+[SUYI] inject_adapter time 1.781
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.754
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.800
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.838
+[SUYI] inject_adapter time 1.767
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.719
+[SUYI] inject_adapter time 1.907
+[SUYI] inject_adapter time 0.095
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.099
+[SUYI] inject_adapter time 0.099
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.859
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.706
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.798
+[SUYI] inject_adapter time 0.390
+[SUYI] inject_adapter time 0.105
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.094
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.405
+[SUYI] inject_adapter time 0.383
+[SUYI] inject_adapter time 0.391
+[SUYI] inject_adapter time 1.805
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.105n_device_per_batch: 
+ 4
+[SUYI] inject_adapter time 0.412
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.371
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.406
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.397
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.61
+End2End inference latency: 10.52
+==============================
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+19 by william eggleston, a witch riding a broom, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'feature_extractor', 'image_encoder', 'text_encoder', 'tokenizer_2', 'vae', 'unet', 'scheduler', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'tokenizer_2', 'feature_extractor', 'image_encoder', 'unet', 'text_encoder_2', 'scheduler', 'vae', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'scheduler', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'tokenizer_2', 'unet', 'image_encoder', 'text_encoder', 'vae'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'scheduler', 'image_encoder', 'vae', 'text_encoder_2', 'tokenizer', 'tokenizer_2', 'unet', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'scheduler', 'unet', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'tokenizer', 'text_encoder', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'unet', 'vae', 'text_encoder_2', 'scheduler', 'tokenizer', 'feature_extractor', 'image_encoder', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'tokenizer', 'vae', 'unet', 'text_encoder_2', 'scheduler', 'tokenizer_2', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'vae', 'scheduler', 'tokenizer', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.575
+[SUYI] inject_adapter time 1.530
+[SUYI] inject_adapter time 1.530
+[SUYI] inject_adapter time 1.505
+[SUYI] inject_adapter time 1.512
+[SUYI] inject_adapter time 1.637
+[SUYI] inject_adapter time 1.569
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.661
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.748
+[SUYI] inject_adapter time 1.757
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.812
+[SUYI] inject_adapter time 1.973
+[SUYI] inject_adapter time 1.877
+[SUYI] inject_adapter time 0.093
+[SUYI] inject_adapter time 0.102
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.860
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.100
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.096[SUYI] inject_adapter time 0.097
+
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.815
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.378
+[SUYI] inject_adapter time 0.371
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.114
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 0.415
+[SUYI] inject_adapter time 1.874
+[SUYI] inject_adapter time 0.415
+[SUYI] inject_adapter time 0.424
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.443
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.106
+LoraModel not implement _pre_injection_hook() yet
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.419
+n_device_per_batch:  4
+n_device_per_batch:  4
+[SUYI] inject_adapter time 0.414
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 5.60
+End2End inference latency: 10.58
+==============================
+Number of prompts: 19
+End2End Throughput: 0.01

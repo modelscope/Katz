@@ -1,0 +1,18 @@
+# Dataset
+output_image_path: ./output_images/katz-1c-2l
+# General
+world_size: 4
+# ControlNet
+controlnet_parallel: true
+num_controlnets: 1
+# LoRA
+lora_mode: "sync"
+load_lora_mode: "async"
+max_lora_num: 2
+# Base Model
+latent_parallel: true
+# env
+ENABLE_CUDA_GRAPH: "1"
+ENABLE_FUSED_GEGLU: "1"
+ENABLE_CHANNELS_LAST: "1"
+ENABLE_FUSED_NORM_SILU: "1"

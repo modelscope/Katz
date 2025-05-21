@@ -1,0 +1,715 @@
+[SUYI] Using EulerDiscreteScheduler
+[SUYI] In unet_2d_condition.py
+[SUYI] USE_PEFT_BACKEND=True in loaders/lora.py
+Args Namespace(skipped_steps=20, enable_hit_ratio=False, serve_mode='standard', lora_mode='full', load_lora_mode='default', num_controlnets=0, num_loras=1)
+Nirvana config {'K': 20, 'hit_ratio': 0.2}
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--diffusers--controlnet-depth-sdxl-1.0/snapshots/17bb97973f29801224cd66f192c5ffacf82648b4/diffusion_pytorch_model.fp16.safetensors)
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--madebyollin--sdxl-vae-fp16-fix/snapshots/207b116dae70ace3637169f1ddd2434b91b3a8cd/diffusion_pytorch_model.safetensors)
+[SUYI] Using customized pipeline_stable_diffusion_xl
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:12<00:32,  6.47s/it]Loading pipeline components...:  43%|████▎     | 3/7 [00:13<00:15,  3.88s/it]Loading pipeline components...:  57%|█████▋    | 4/7 [00:13<00:07,  2.52s/it]Loading pipeline components...:  86%|████████▌ | 6/7 [00:14<00:01,  1.37s/it]Loading pipeline components...: 100%|██████████| 7/7 [00:14<00:00,  2.01s/it]
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] norm_num_groups: 32
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_cuda_graph: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b/unet/diffusion_pytorch_model.fp16.safetensors)
+Prepare dummy ControlNet results
+0 papercut -subject/scene-a long wooden bench in front of a brick wall, 4k, clean background
+[SUYI] load_file_time=0.499
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 2.375
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.53
+[SUYI] load_lora_into_unet_time=2.540
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [00:00<00:04,  6.37it/s] 13%|█▎        | 4/30 [00:00<00:01, 14.84it/s] 20%|██        | 6/30 [00:00<00:01, 16.26it/s] 27%|██▋       | 8/30 [00:00<00:01, 17.08it/s] 33%|███▎      | 10/30 [00:00<00:01, 17.59it/s] 40%|████      | 12/30 [00:00<00:01, 17.92it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.13it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.28it/s] 60%|██████    | 18/30 [00:01<00:00, 18.38it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.45it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.50it/s] 80%|████████  | 24/30 [00:01<00:00, 18.53it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.55it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.57it/s]100%|██████████| 30/30 [00:01<00:00, 18.58it/s]100%|██████████| 30/30 [00:01<00:00, 17.70it/s]
+Load LoRA latency: 3.47
+End2End inference latency: 5.80
+==============================
+1 papercut -subject/scene-a cat looking out of a window, 4k, clean background
+[SUYI] load_file_time=0.470
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.911
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.07
+[SUYI] load_lora_into_unet_time=2.080
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 20.42it/s] 20%|██        | 6/30 [00:00<00:01, 19.90it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.41it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.13it/s] 40%|████      | 12/30 [00:00<00:00, 18.95it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.84it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.76it/s] 60%|██████    | 18/30 [00:00<00:00, 18.71it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.68it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.65it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.62it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.49
+==============================
+2 papercut -subject/scene-A helicopter flies over Yosemite., 4k, clean background
+[SUYI] load_file_time=0.481
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.905
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.06
+[SUYI] load_lora_into_unet_time=2.074
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.56it/s] 20%|██        | 6/30 [00:00<00:01, 19.72it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.30it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.06it/s] 40%|████      | 12/30 [00:00<00:00, 18.91it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.81it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.75it/s] 60%|██████    | 18/30 [00:00<00:00, 18.70it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.67it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.65it/s] 80%|████████  | 24/30 [00:01<00:00, 18.64it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.63it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.62it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.86it/s]
+Load LoRA latency: 2.67
+End2End inference latency: 4.50
+==============================
+3 papercut -subject/scene-a handsaw on a table, 4k, clean background
+[SUYI] load_file_time=0.467
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.903
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.07
+[SUYI] load_lora_into_unet_time=2.076
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.51it/s] 20%|██        | 6/30 [00:00<00:01, 19.64it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.25it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.74it/s] 60%|██████    | 18/30 [00:00<00:00, 18.70it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.67it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.65it/s] 80%|████████  | 24/30 [00:01<00:00, 18.64it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.62it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.76
+End2End inference latency: 4.59
+==============================
+4 papercut -subject/scene-A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+[SUYI] load_file_time=0.478
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.812
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.08
+[SUYI] load_lora_into_unet_time=2.085
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.50it/s] 20%|██        | 6/30 [00:00<00:01, 19.64it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.24it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.01it/s] 40%|████      | 12/30 [00:00<00:00, 18.87it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.78it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.83it/s]
+Load LoRA latency: 2.67
+End2End inference latency: 4.50
+==============================
+5 papercut -subject/scene-a large present with a red ribbon, 4k, clean background
+[SUYI] load_file_time=0.481
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.817
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.09
+[SUYI] load_lora_into_unet_time=2.096
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.59it/s] 20%|██        | 6/30 [00:00<00:01, 19.72it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.30it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.69
+End2End inference latency: 4.52
+==============================
+6 papercut -subject/scene-a cat reading a book, 4k, clean background
+[SUYI] load_file_time=0.476
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.821
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.09
+[SUYI] load_lora_into_unet_time=2.095
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.57it/s] 20%|██        | 6/30 [00:00<00:01, 19.70it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.29it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.81it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.74it/s] 60%|██████    | 18/30 [00:00<00:00, 18.70it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.67it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.68
+End2End inference latency: 4.51
+==============================
+7 papercut -subject/scene-the Beatles crossing Abbey road, 4k, clean background
+[SUYI] load_file_time=0.468
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.822
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.08
+[SUYI] load_lora_into_unet_time=2.087
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.54it/s] 20%|██        | 6/30 [00:00<00:01, 19.70it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.29it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.81it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.74it/s] 60%|██████    | 18/30 [00:00<00:00, 18.70it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.49
+==============================
+8 papercut -subject/scene-a woman singing into a microphone, 4k, clean background
+[SUYI] load_file_time=0.534
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.649
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.90
+[SUYI] load_lora_into_unet_time=1.912
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.57it/s] 20%|██        | 6/30 [00:00<00:01, 19.72it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.30it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.55
+End2End inference latency: 4.38
+==============================
+9 papercut -subject/scene-a white robot passing a soccer ball to a red robot, 4k, clean background
+[SUYI] load_file_time=0.561
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.645
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.90
+[SUYI] load_lora_into_unet_time=1.908
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.56it/s] 20%|██        | 6/30 [00:00<00:01, 19.72it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.30it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.74it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.57
+End2End inference latency: 4.41
+==============================
+10 papercut -subject/scene-a plant growing on the side of a brick wall, 4k, clean background
+[SUYI] load_file_time=0.471
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.650
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.90
+[SUYI] load_lora_into_unet_time=1.912
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.54it/s] 20%|██        | 6/30 [00:00<00:01, 19.71it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.30it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.06it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.49
+End2End inference latency: 4.32
+==============================
+11 papercut -subject/scene-snow covering the Great Pyramid, 4k, clean background
+[SUYI] load_file_time=0.505
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.616
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.87
+[SUYI] load_lora_into_unet_time=1.883
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.55it/s] 20%|██        | 6/30 [00:00<00:01, 19.71it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.29it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.04it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.78it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.61it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.49
+End2End inference latency: 4.32
+==============================
+12 papercut -subject/scene-a photograph of a house on a mountain, 4k, clean background
+[SUYI] load_file_time=0.480
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.642
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.89
+[SUYI] load_lora_into_unet_time=1.904
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.57it/s] 20%|██        | 6/30 [00:00<00:01, 19.71it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.29it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.49
+End2End inference latency: 4.32
+==============================
+13 papercut -subject/scene-an owl standing on a wire, 4k, clean background
+[SUYI] load_file_time=0.483
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.668
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.92
+[SUYI] load_lora_into_unet_time=1.927
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.52it/s] 20%|██        | 6/30 [00:00<00:01, 19.68it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.26it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.88it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.52
+End2End inference latency: 4.35
+==============================
+14 papercut -subject/scene-a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+[SUYI] load_file_time=0.495
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.640
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 1.89
+[SUYI] load_lora_into_unet_time=1.901
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.51it/s] 20%|██        | 6/30 [00:00<00:01, 19.66it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.26it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.50
+End2End inference latency: 4.33
+==============================
+15 papercut -subject/scene-a subway train coming out of a tunnel, 4k, clean background
+[SUYI] load_file_time=0.479
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.781
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.07
+[SUYI] load_lora_into_unet_time=2.080
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.43it/s] 20%|██        | 6/30 [00:00<00:01, 19.63it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.27it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.87it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.78it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.75it/s] 60%|██████    | 18/30 [00:00<00:00, 18.67it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.61it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.63it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.83it/s]
+Load LoRA latency: 2.68
+End2End inference latency: 4.52
+==============================
+16 papercut -subject/scene-a stone path leading away from a fountain, 4k, clean background
+[SUYI] load_file_time=0.601
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.822
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.08
+[SUYI] load_lora_into_unet_time=2.092
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.54it/s] 20%|██        | 6/30 [00:00<00:01, 19.69it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.28it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.04it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.74it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.62it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.80
+End2End inference latency: 4.63
+==============================
+17 papercut -subject/scene-an antique car by a beach, 4k, clean background
+[SUYI] load_file_time=0.479
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.807
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.09
+[SUYI] load_lora_into_unet_time=2.097
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.48it/s] 20%|██        | 6/30 [00:00<00:01, 19.68it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.28it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.04it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.69
+End2End inference latency: 4.52
+==============================
+18 papercut -subject/scene-black hi-top sneakers with the Nike swoosh, 4k, clean background
+[SUYI] load_file_time=0.529
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.814
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.09
+[SUYI] load_lora_into_unet_time=2.098
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.50it/s] 20%|██        | 6/30 [00:00<00:01, 19.67it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.27it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.52it/s]100%|██████████| 30/30 [00:01<00:00, 18.82it/s]
+Load LoRA latency: 2.74
+End2End inference latency: 4.57
+==============================
+19 papercut -subject/scene-a witch riding a broom, 4k, clean background
+[SUYI] load_file_time=0.472
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.807
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.07
+[SUYI] load_lora_into_unet_time=2.080
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.53it/s] 20%|██        | 6/30 [00:00<00:01, 19.68it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.27it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.88it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.78it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.67it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.64it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.62it/s] 80%|████████  | 24/30 [00:01<00:00, 18.61it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.60it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.83it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.49
+==============================
+20 papercut -subject/scene-a sword in a stone, 4k, clean background
+[SUYI] load_file_time=0.509
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.816
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.08
+[SUYI] load_lora_into_unet_time=2.087
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.59it/s] 20%|██        | 6/30 [00:00<00:01, 19.71it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.29it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.04it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.61it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.70
+End2End inference latency: 4.54
+==============================
+21 papercut -subject/scene-cash on a wooden table, 4k, clean background
+[SUYI] load_file_time=0.468
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.812
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.07
+[SUYI] load_lora_into_unet_time=2.084
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.52it/s] 20%|██        | 6/30 [00:00<00:01, 19.69it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.27it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.88it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.50
+==============================
+22 papercut -subject/scene-the Millennium Wheel in a snow storm, 4k, clean background
+[SUYI] load_file_time=0.526
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.799
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.05
+[SUYI] load_lora_into_unet_time=2.061
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.53it/s] 20%|██        | 6/30 [00:00<00:01, 19.25it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.27it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.13it/s] 40%|████      | 12/30 [00:00<00:00, 18.95it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.83it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.76it/s] 60%|██████    | 18/30 [00:00<00:00, 18.70it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.67it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.69
+End2End inference latency: 4.52
+==============================
+23 papercut -subject/scene-a knight holding a long sword, 4k, clean background
+[SUYI] load_file_time=0.468
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.825
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.08
+[SUYI] load_lora_into_unet_time=2.091
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.48it/s] 20%|██        | 6/30 [00:00<00:01, 19.65it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.25it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.02it/s] 40%|████      | 12/30 [00:00<00:00, 18.88it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.78it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.83it/s]
+Load LoRA latency: 2.67
+End2End inference latency: 4.50
+==============================
+24 papercut -subject/scene-a smiling sloth, 4k, clean background
+[SUYI] load_file_time=0.480
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.822
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.08
+[SUYI] load_lora_into_unet_time=2.091
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.52it/s] 20%|██        | 6/30 [00:00<00:01, 19.66it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.26it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.88it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.61it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.60it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.83it/s]
+Load LoRA latency: 2.68
+End2End inference latency: 4.52
+==============================
+25 papercut -subject/scene-a bundle of blue and yellow flowers in a vase, 4k, clean background
+[SUYI] load_file_time=0.478
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.804
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.06
+[SUYI] load_lora_into_unet_time=2.074
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.49it/s] 20%|██        | 6/30 [00:00<00:01, 19.66it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.26it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.02it/s] 40%|████      | 12/30 [00:00<00:00, 18.87it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.77it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.71it/s] 60%|██████    | 18/30 [00:00<00:00, 18.67it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.64it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.62it/s] 80%|████████  | 24/30 [00:01<00:00, 18.60it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.59it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.58it/s]100%|██████████| 30/30 [00:01<00:00, 18.58it/s]100%|██████████| 30/30 [00:01<00:00, 18.82it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.50
+==============================
+26 papercut -subject/scene-a cat coming through a cat door, 4k, clean background
+[SUYI] load_file_time=0.474
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.799
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.06
+[SUYI] load_lora_into_unet_time=2.069
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.54it/s] 20%|██        | 6/30 [00:00<00:01, 19.69it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.28it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.03it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.79it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.65
+End2End inference latency: 4.49
+==============================
+27 papercut -subject/scene-a pickup truck going up a mountain switchback, 4k, clean background
+[SUYI] load_file_time=0.476
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.800
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.06
+[SUYI] load_lora_into_unet_time=2.071
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.52it/s] 20%|██        | 6/30 [00:00<00:01, 19.68it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.27it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.04it/s] 40%|████      | 12/30 [00:00<00:00, 18.89it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.73it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.64it/s] 80%|████████  | 24/30 [00:01<00:00, 18.63it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.61it/s]100%|██████████| 30/30 [00:01<00:00, 18.59it/s]100%|██████████| 30/30 [00:01<00:00, 18.84it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.49
+==============================
+28 papercut -subject/scene-a street in Paris, 4k, clean background
+[SUYI] load_file_time=0.477
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.790
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.05
+[SUYI] load_lora_into_unet_time=2.063
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.53it/s] 20%|██        | 6/30 [00:00<00:01, 19.65it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.24it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.02it/s] 40%|████      | 12/30 [00:00<00:00, 18.88it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.78it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.72it/s] 60%|██████    | 18/30 [00:00<00:00, 18.68it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.65it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.83it/s]
+Load LoRA latency: 2.65
+End2End inference latency: 4.48
+==============================
+29 papercut -subject/scene-a teddy bear on a skateboard, 4k, clean background
+[SUYI] load_file_time=0.466
+Before inject 1680
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.801
+After inject 3124
+[SUYI] inject_adapter_in_model_with_weights time: 2.07
+[SUYI] load_lora_into_unet_time=2.084
+[SUYI] len(text_encoder_state_dict) 0
+[SUYI] len(text_encoder_2_state_dict) 0
+lora_scale: 1.0, safe_fusing: False, adapter_names: None
+  0%|          | 0/30 [00:00<?, ?it/s] 10%|█         | 3/30 [00:00<00:01, 21.58it/s] 20%|██        | 6/30 [00:00<00:01, 19.71it/s] 27%|██▋       | 8/30 [00:00<00:01, 19.29it/s] 33%|███▎      | 10/30 [00:00<00:01, 19.05it/s] 40%|████      | 12/30 [00:00<00:00, 18.90it/s] 47%|████▋     | 14/30 [00:00<00:00, 18.80it/s] 53%|█████▎    | 16/30 [00:00<00:00, 18.74it/s] 60%|██████    | 18/30 [00:00<00:00, 18.69it/s] 67%|██████▋   | 20/30 [00:01<00:00, 18.66it/s] 73%|███████▎  | 22/30 [00:01<00:00, 18.63it/s] 80%|████████  | 24/30 [00:01<00:00, 18.62it/s] 87%|████████▋ | 26/30 [00:01<00:00, 18.61it/s] 93%|█████████▎| 28/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.60it/s]100%|██████████| 30/30 [00:01<00:00, 18.85it/s]
+Load LoRA latency: 2.66
+End2End inference latency: 4.49
+==============================

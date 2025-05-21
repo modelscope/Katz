@@ -1,0 +1,1198 @@
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+Args Namespace(num_loras=0, num_controlnets=3)
+distri_config {'world_size': 8, 'rank': 0, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=0), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6dd070>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6dce70>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 5, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=5), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e47b0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6c5ab0>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 4, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=4), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f807230>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f8069b0>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 3, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=3), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f807cb0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f807030>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 1, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=1), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f807a30>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e69b0>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 2, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=2), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e5730>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6dceb0>}
+distri_config {'world_size': 8, 'rank': 7, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=7), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e5170>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e4470>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+0 a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 8, 'rank': 6, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 4, 'device': device(type='cuda', index=6), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f678070>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f678b70>}
+0 a long wooden bench in front of a brick wall, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters: counters:   [0, 5, 6][0, 5, 6]
+
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.25
+==============================
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+1 a cat looking out of a window, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 4.94
+==============================
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+2 A helicopter flies over Yosemite., 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.04
+==============================
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+3 a handsaw on a table, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.32
+==============================
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.45
+==============================
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+5 a large present with a red ribbon, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 4.83
+==============================
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+6 a cat reading a book, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.18
+==============================
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+7 the Beatles crossing Abbey road, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.18
+==============================
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+8 a woman singing into a microphone, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 4.83
+==============================
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 6.04
+==============================
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+10 a plant growing on the side of a brick wall, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 4.83
+==============================
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+11 snow covering the Great Pyramid, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.26
+==============================
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+12 a photograph of a house on a mountain, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.10
+==============================
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+13 an owl standing on a wire, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-runPre-run
+
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.32
+==============================
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.59
+==============================
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+15 a subway train coming out of a tunnel, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 6.09
+==============================
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+16 a stone path leading away from a fountain, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.09
+==============================
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+17 an antique car by a beach, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 4.87
+==============================
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 4.89
+==============================
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+19 a witch riding a broom, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'unet', 'scheduler', 'image_encoder', 'tokenizer_2', 'text_encoder_2', 'vae', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'vae', 'image_encoder', 'scheduler', 'tokenizer_2', 'tokenizer', 'unet', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'text_encoder', 'unet', 'scheduler', 'vae', 'tokenizer_2', 'text_encoder_2', 'feature_extractor', 'image_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'vae', 'unet', 'tokenizer_2', 'text_encoder_2', 'image_encoder', 'text_encoder', 'tokenizer', 'scheduler'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'image_encoder', 'feature_extractor', 'scheduler', 'unet', 'vae', 'text_encoder_2', 'text_encoder', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'feature_extractor', 'scheduler', 'text_encoder', 'vae', 'image_encoder', 'tokenizer_2', 'unet', 'text_encoder_2', 'tokenizer'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder', 'feature_extractor', 'unet', 'scheduler', 'tokenizer', 'image_encoder', 'tokenizer_2', 'vae', 'text_encoder_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'unet', 'feature_extractor', 'tokenizer_2', 'image_encoder', 'scheduler', 'vae', 'text_encoder', 'tokenizer'}
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+n_device_per_batch:  4
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 0.00
+End2End inference latency: 5.60
+==============================
+Number of prompts: 19
+End2End Throughput: 0.02
