@@ -11,7 +11,13 @@ Katz is a high-performance serving system designed specifically for diffusion mo
 
 ## 🎬 Demo
 
-Coming soon.
+![](./assets/katz_demo.gif)
+
+**Prompt**: papercut -subject/scene-a shiba inu wearing a beret and black turtleneck, 4k, clean background
+
+**Negative prompt**: low quality, bad quality, sketches, numbers, letters
+
+This image was generated with **1 ControlNet** with depth guidance and **1 LoRA** for the papercut style. The depth reference image used for guidance is available [here](./assets/demo_image_depth.png).
 
 ## 🚀 Getting Started
 
@@ -35,7 +41,7 @@ $ pushd ./diffusers-hf/src/fast_kernel/ && git submodule update --init --recursi
 
 ## 🔥 Quickstart Example
 
-
+Coming soon.
 
 ## 🔮 Artifact Evaluation
 
