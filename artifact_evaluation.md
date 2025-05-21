@@ -2,6 +2,27 @@
 
 This guide provides step-by-step instructions to reproduce the experiments and results presented in our Katz paper. Follow these steps to validate our claims regarding **performance improvements** and **image quality preservation**.
 
+To simplify reproducibility, we provide an off-the-shelf Docker image, `mental2008/katz-ae:latest`, which includes all the dependencies and configurations required to run the experiments. This eliminates the need for complex environment setup. You can pull the image from [Docker Hub](https://hub.docker.com/repository/docker/mental2008/katz-ae/general) and use it as follows.
+
+## 🚀 Run Katz with Docker
+
+```bash
+# Pull the prebuilt Docker image
+$ docker pull mental2008/katz-ae:latest
+
+# Run the container in detached mode with GPU support
+$ docker run -d --gpus all --rm --name katz-ae mental2008/katz-ae:latest sleep infinity
+
+# Access the container's shell
+$ docker exec -it katz-ae bash
+
+# Inside the container, activate the Conda environment
+$ source activate katz
+
+# Set the path to reference images
+$ export ref_image_path=/workspace/Katz-cached-image-results/images/images_sdxl_t2i
+```
+
 ## 📋 Prerequisites
 
 ### 1. Generate UNet State Dictionaries
@@ -21,7 +42,7 @@ $ ENABLE_CHANNELS_LAST=1 python gen_unet_state_dict.py  # Generates default_unet
 Export the environment variable pointing to the reference images (available in our [Modelscope repository](https://modelscope.cn/datasets/mental2008/Katz-cached-image-results)):
 
 ```bash
-$ export ref_image_path=/path/to/Katz-cached-iamge-results/images/images_sdxl_t2i
+$ export ref_image_path=/path/to/Katz-cached-image-results/images/images_sdxl_t2i
 ```
 
 ## 🚀 End-to-End Performance
@@ -54,7 +75,7 @@ $ python baselines/run_baseline.py configs/diffusers-2c-2l.yml  # 2 ControlNets,
 
 #### 2. Nirvana
 
-First, generate cached images required by Nirvana:
+First, generate cached images required by Nirvana. The cached images will be saved in the `./images_sdxl_t2i_nirvana_cache/` directory.
 
 ```bash
 $ python baselines/gen_partiprompts_detail_t2i_nirvana_cache.py

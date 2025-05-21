@@ -234,7 +234,7 @@ def cleanup(all_procs):
 
 
 def main():
-    assert len(sys.argv) == 2, "python run_swiftdiffusion.py <config_path>"
+    assert len(sys.argv) == 2, "python run_katz.py <config_path>"
 
     project_path = os.getcwd()
     print(f"Project Path: {project_path}")
