@@ -1,0 +1,58 @@
+Using EulerDiscreteScheduler
+Total GPUs in the world: 8
+torch.distributed.is_available(): True
+torch.distributed.is_nccl_available(): True
+Args: Namespace(world_size=8, gpu_id=2, rank=2, dst_rank=0, controlnet_parallel_rank=[2, 4, 6], verbose=False)
+World size: 8, rank: 2
+Enable cuda graph: True
+Start ControlNet server on GPU 2
+Avg: 0.0341, Sum: 1.7026
+Avg: 0.0136, Sum: 0.6801
+Avg: 0.0136, Sum: 0.6801
+Avg: 0.0136, Sum: 0.6799
+Avg: 0.0136, Sum: 0.6803
+Avg: 0.0136, Sum: 0.6803
+Avg: 0.0136, Sum: 0.6803
+Avg: 0.0136, Sum: 0.6801
+Avg: 0.0136, Sum: 0.6804
+Avg: 0.0136, Sum: 0.6804
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6805
+Avg: 0.0136, Sum: 0.6805
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6810
+Avg: 0.0136, Sum: 0.6815
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6807
+Avg: 0.0136, Sum: 0.6809
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6806
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6808
+Avg: 0.0136, Sum: 0.6807

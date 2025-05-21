@@ -1,1 +1,10 @@
+*.png
+*.jpg
+
+*.zip
+
+__pycache__/
+
+*.pt
+
 **.DS_Store

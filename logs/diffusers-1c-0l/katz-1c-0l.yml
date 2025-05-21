@@ -1,0 +1,20 @@
+# Log
+log_folder: logs/katz-1c-0l
+# Dataset
+num_prompts: 30
+# General
+world_size: 4
+# ControlNet
+controlnet_parallel: true
+num_controlnets: 1
+# LoRA
+lora_mode: "without"
+load_lora_mode: "default"
+max_lora_num: 0
+# Base Model
+latent_parallel: true
+# env
+ENABLE_CUDA_GRAPH: "1"
+ENABLE_FUSED_GEGLU: "1"
+ENABLE_CHANNELS_LAST: "1"
+ENABLE_FUSED_NORM_SILU: "1"

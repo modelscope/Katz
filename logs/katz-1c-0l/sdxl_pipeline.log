@@ -1,0 +1,470 @@
+Using EulerDiscreteScheduler
+Number of GPUs: 8
+Available GPU 0: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 1: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 2: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 3: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 4: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 5: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 6: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 7: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Args: Namespace(num_prompts=50, ref_image_path='/project/infattllm/slida/katz-ae-images/images_sdxl_t2i', output_image_path=None, serve_mode='standard', world_size=4, gpu_id=0, rank=0, controlnet_parallel=True, controlnet_parallel_rank=[2], num_controlnets=1, lora_mode='without', load_lora_mode='default', max_lora_num=0, latent_parallel=True, verbose=False)
+World size: 4, rank: 0
+Enable cuda graph: True
+Using customized pipeline_stable_diffusion_xl
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:02,  2.61it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:12<00:37,  7.53s/it]Loading pipeline components...:  43%|████▎     | 3/7 [00:13<00:17,  4.28s/it]Loading pipeline components...:  86%|████████▌ | 6/7 [00:13<00:01,  1.56s/it]Loading pipeline components...: 100%|██████████| 7/7 [00:13<00:00,  1.98s/it]
+Enable cuda graph: True
+default_unet_state_dict length 1680
+Prompt: a long wooden bench in front of a brick wall, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_0_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:01<01:30,  1.86s/it] 10%|█         | 5/50 [00:01<00:13,  3.29it/s] 18%|█▊        | 9/50 [00:02<00:06,  6.46it/s] 26%|██▌       | 13/50 [00:02<00:03,  9.92it/s] 34%|███▍      | 17/50 [00:02<00:02, 13.46it/s] 42%|████▏     | 21/50 [00:02<00:01, 16.86it/s] 50%|█████     | 25/50 [00:02<00:01, 19.94it/s] 58%|█████▊    | 29/50 [00:02<00:00, 22.58it/s] 66%|██████▌   | 33/50 [00:02<00:00, 24.75it/s] 74%|███████▍  | 37/50 [00:03<00:00, 26.44it/s] 82%|████████▏ | 41/50 [00:03<00:00, 27.74it/s] 90%|█████████ | 45/50 [00:03<00:00, 28.70it/s] 98%|█████████▊| 49/50 [00:03<00:00, 29.42it/s]100%|██████████| 50/50 [00:03<00:00, 14.58it/s]
+Total denoising time: 3.43
+Total controlnet time: 0.00
+Total unet time: 3.20
+Load LoRA latency: 0.00
+End2End inference latency: 9.75
+==============================
+Prompt: a cat looking out of a window, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_1_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.82it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.01it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.08it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.12it/s] 40%|████      | 20/50 [00:00<00:00, 31.15it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.20it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: A helicopter flies over Yosemite., 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_2_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.07it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.20it/s] 40%|████      | 20/50 [00:00<00:00, 31.20it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.20it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a handsaw on a table, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_3_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.01it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.11it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_4_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.00it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.20it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.20it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.20it/s] 80%|████████  | 40/50 [00:01<00:00, 31.20it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a large present with a red ribbon, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_5_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.01it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.11it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.14it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.20it/s] 80%|████████  | 40/50 [00:01<00:00, 31.21it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a cat reading a book, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_6_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.07it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.20it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.20it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.20it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.20it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.19it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: the Beatles crossing Abbey road, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_7_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.03it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.11it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.20it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.20it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a woman singing into a microphone, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_8_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.20it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a white robot passing a soccer ball to a red robot, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_9_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.99it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.08it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.12it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.15it/s] 40%|████      | 20/50 [00:00<00:00, 31.15it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.20it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a plant growing on the side of a brick wall, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_10_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.10it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.20it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: snow covering the Great Pyramid, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_11_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.98it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.11it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a photograph of a house on a mountain, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_12_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.12it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.18it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.20it/s] 40%|████      | 20/50 [00:00<00:00, 31.20it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.20it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.20it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.20it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.19it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: an owl standing on a wire, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_13_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_14_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.09it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.18it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.19it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.20it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.20it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.19it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a subway train coming out of a tunnel, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_15_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.02it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.20it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a stone path leading away from a fountain, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_16_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.07it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.16it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.19it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.20it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.20it/s] 80%|████████  | 40/50 [00:01<00:00, 31.20it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.20it/s]100%|██████████| 50/50 [00:01<00:00, 31.19it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: an antique car by a beach, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_17_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.00it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.11it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.13it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.15it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: black hi-top sneakers with the Nike swoosh, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_18_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.09it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.19it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.20it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a witch riding a broom, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_19_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.13it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a sword in a stone, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_20_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.20it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.20it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: cash on a wooden table, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_21_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.07it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.17it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.20it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: the Millennium Wheel in a snow storm, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_22_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a knight holding a long sword, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_23_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.01it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.16it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.16it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a smiling sloth, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_24_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.99it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.20it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a bundle of blue and yellow flowers in a vase, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_25_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.00it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.14it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.15it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.16it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.61
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a cat coming through a cat door, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_26_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.16it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a pickup truck going up a mountain switchback, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_27_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.98it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.09it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.13it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.15it/s] 40%|████      | 20/50 [00:00<00:00, 31.16it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.15it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.61
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a street in Paris, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_28_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.08it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a teddy bear on a skateboard, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_29_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a man with wild hair looking into a crystal ball, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_30_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.13it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a sunset behind the grand canyon, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_31_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.06it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.13it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a high-quality photograph of an armadillo playing a bagpipe while standing on one leg, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_32_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.18it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.20it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.20it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a great gray owl with a mouse in its beak, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_33_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.16it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.16it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.16it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.61
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: red apples on a tree with green leaves, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_34_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.13it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a tennis court with a basketball hoop in one corner, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_35_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.01it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.16it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.16it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.16it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: the Eiffel Tower in winter, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_36_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.06it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.19it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a photo of a phone from the 20s, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_37_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.98it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.13it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.61
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a motorcycle in front of an rhinoceros, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_38_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.16it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.19it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a whale breaching in front of the Sydney Opera House, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_39_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.13it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a tornado passing over a corn field, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_40_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.08it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.19it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.19it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.17it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a woman with tan skin in blue jeans and yellow shirt, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_41_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.03it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.10it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.14it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.16it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.61
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: milk pouring into a large glass, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_42_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.05it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.19it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.19it/s] 80%|████████  | 40/50 [00:01<00:00, 31.20it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.19it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.18it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a stop sign knocked over on a sidewalk, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_43_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.99it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.13it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.18it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.16it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.18it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.17it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a hot air balloon landing in a corn field, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_44_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.00it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.13it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.19it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a woman with long black hair and dark skin, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_45_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.03it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.16it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.17it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.16it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.15it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.17it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.17it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a red sports car on the road, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_46_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 30.99it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.18it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.19it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: the United States flag next to the flag of Texas, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_47_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.15it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.16it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.18it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.16it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.16it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.16it/s] 80%|████████  | 40/50 [00:01<00:00, 31.17it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.16it/s]100%|██████████| 50/50 [00:01<00:00, 31.16it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a painting of black and white with a red border, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_48_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.07it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.14it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.14it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.17it/s] 40%|████      | 20/50 [00:00<00:00, 31.17it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.18it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.19it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.18it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.18it/s] 80%|████████  | 40/50 [00:01<00:00, 31.19it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.18it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.18it/s]100%|██████████| 50/50 [00:01<00:00, 31.17it/s]
+Total denoising time: 1.60
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+Prompt: a tuba with red flowers protruding from its bell, 4k, clean background
+Reference image: /project/infattllm/slida/katz-ae-images/images_sdxl_t2i/image_49_depth.png
+  0%|          | 0/50 [00:00<?, ?it/s]  8%|▊         | 4/50 [00:00<00:01, 31.04it/s] 16%|█▌        | 8/50 [00:00<00:01, 31.12it/s] 24%|██▍       | 12/50 [00:00<00:01, 31.15it/s] 32%|███▏      | 16/50 [00:00<00:01, 31.16it/s] 40%|████      | 20/50 [00:00<00:00, 31.16it/s] 48%|████▊     | 24/50 [00:00<00:00, 31.17it/s] 56%|█████▌    | 28/50 [00:00<00:00, 31.17it/s] 64%|██████▍   | 32/50 [00:01<00:00, 31.10it/s] 72%|███████▏  | 36/50 [00:01<00:00, 31.11it/s] 80%|████████  | 40/50 [00:01<00:00, 31.14it/s] 88%|████████▊ | 44/50 [00:01<00:00, 31.14it/s] 96%|█████████▌| 48/50 [00:01<00:00, 31.15it/s]100%|██████████| 50/50 [00:01<00:00, 31.14it/s]
+Total denoising time: 1.61
+Total controlnet time: 0.00
+Total unet time: 1.57
+Load LoRA latency: 0.00
+End2End inference latency: 1.74
+==============================
+End2End inference latency: 91.78
+Number of prompts: 50
+End2End Throughput: 1.84

@@ -1,0 +1,7 @@
+# Script
+script: "baselines/run_diffusers.py"
+# Dataset
+output_image_path: ./output_images/diffusers-1c-2l
+# Settings
+num_controlnets: 1
+num_loras: 2

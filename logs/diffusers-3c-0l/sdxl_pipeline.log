@@ -1,0 +1,533 @@
+[SUYI] Using EulerDiscreteScheduler
+[SUYI] In unet_2d_condition.py
+Args Namespace(serve_mode='standard', lora_mode='full', load_lora_mode='default', num_controlnets=3, num_loras=0, skipped_steps=0, switch_controlnet=0)
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--diffusers--controlnet-depth-sdxl-1.0/snapshots/17bb97973f29801224cd66f192c5ffacf82648b4/diffusion_pytorch_model.fp16.safetensors)
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--diffusers--controlnet-depth-sdxl-1.0/snapshots/17bb97973f29801224cd66f192c5ffacf82648b4/diffusion_pytorch_model.fp16.safetensors)
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--diffusers--controlnet-depth-sdxl-1.0/snapshots/17bb97973f29801224cd66f192c5ffacf82648b4/diffusion_pytorch_model.fp16.safetensors)
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--madebyollin--sdxl-vae-fp16-fix/snapshots/207b116dae70ace3637169f1ddd2434b91b3a8cd/diffusion_pytorch_model.safetensors)
+[SUYI] Using customized pipeline_stable_diffusion_xl
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:04,  1.48it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:12<00:36,  7.21s/it]Loading pipeline components...:  57%|█████▋    | 4/7 [00:12<00:08,  2.74s/it]Loading pipeline components...:  71%|███████▏  | 5/7 [00:12<00:03,  1.95s/it]Loading pipeline components...: 100%|██████████| 7/7 [00:12<00:00,  1.84s/it]
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_geglu: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_channels_last: False
+[LINGYUN] norm_num_groups: 32
+[LINGYUN] enable_fused_norm_silu:  False
+[LINGYUN] enable_cuda_graph: False
+[LINGYUN] load_state_dict: safetensors.torch.load_file(/home/slida/.cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b/unet/diffusion_pytorch_model.fp16.safetensors)
+0 a long wooden bench in front of a brick wall, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:17,  2.78it/s]  4%|▍         | 2/50 [00:00<00:10,  4.65it/s]  6%|▌         | 3/50 [00:00<00:08,  5.55it/s]  8%|▊         | 4/50 [00:00<00:07,  6.10it/s] 10%|█         | 5/50 [00:00<00:06,  6.46it/s] 12%|█▏        | 6/50 [00:01<00:06,  6.69it/s] 14%|█▍        | 7/50 [00:01<00:06,  6.85it/s] 16%|█▌        | 8/50 [00:01<00:06,  6.96it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.04it/s] 20%|██        | 10/50 [00:01<00:05,  7.10it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.13it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.16it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.18it/s] 28%|██▊       | 14/50 [00:02<00:05,  7.20it/s] 30%|███       | 15/50 [00:02<00:04,  7.20it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.22it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:03<00:04,  7.22it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.22it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.22it/s] 50%|█████     | 25/50 [00:03<00:03,  7.22it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.22it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.22it/s] 56%|█████▌    | 28/50 [00:04<00:03,  7.22it/s] 58%|█████▊    | 29/50 [00:04<00:02,  7.22it/s] 60%|██████    | 30/50 [00:04<00:02,  7.22it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.22it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.22it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.22it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.22it/s] 70%|███████   | 35/50 [00:05<00:02,  7.22it/s] 72%|███████▏  | 36/50 [00:05<00:01,  7.22it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.22it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.22it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.22it/s] 80%|████████  | 40/50 [00:05<00:01,  7.22it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:06<00:01,  7.22it/s] 86%|████████▌ | 43/50 [00:06<00:00,  7.22it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.22it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.22it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.22it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.22it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:07<00:00,  7.22it/s]100%|██████████| 50/50 [00:07<00:00,  7.02it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.76
+==============================
+1 a cat looking out of a window, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.52it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.30it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.27it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.26it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.25it/s] 20%|██        | 10/50 [00:01<00:05,  7.24it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.23it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.23it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.22it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.22it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.22it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.22it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.22it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.22it/s] 50%|█████     | 25/50 [00:03<00:03,  7.22it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.22it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.22it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.22it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.22it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.22it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.22it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.22it/s] 70%|███████   | 35/50 [00:04<00:02,  7.22it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.22it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.22it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.22it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.22it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+2 A helicopter flies over Yosemite., 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.22it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.22it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.22it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.22it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.22it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.22it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.22it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.22it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.22it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.22it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.22it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.22it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.22it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.22it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+3 a handsaw on a table, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.22it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.22it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.22it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.22it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.22it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.22it/s] 60%|██████    | 30/50 [00:04<00:02,  7.22it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.22it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.22it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.22it/s] 70%|███████   | 35/50 [00:04<00:02,  7.22it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.22it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.22it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.22it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+4 A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.78it/s]  4%|▍         | 2/50 [00:00<00:06,  7.80it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+5 a large present with a red ribbon, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.22it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.22it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.22it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+6 a cat reading a book, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.75it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.50it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+7 the Beatles crossing Abbey road, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.80it/s]  6%|▌         | 3/50 [00:00<00:06,  7.52it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.22it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.22it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+8 a woman singing into a microphone, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+9 a white robot passing a soccer ball to a red robot, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+10 a plant growing on the side of a brick wall, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+11 snow covering the Great Pyramid, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.24it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+12 a photograph of a house on a mountain, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+13 an owl standing on a wire, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.22it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+14 a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.22it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.22it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.22it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+15 a subway train coming out of a tunnel, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.74it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+16 a stone path leading away from a fountain, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.22it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.22it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.22it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+17 an antique car by a beach, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.23it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+18 black hi-top sneakers with the Nike swoosh, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.23it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+19 a witch riding a broom, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.20it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.23it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+20 a sword in a stone, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.20it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.20it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.20it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.23it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+21 cash on a wooden table, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+22 the Millennium Wheel in a snow storm, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.52it/s]  8%|▊         | 4/50 [00:00<00:06,  7.40it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.22it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+23 a knight holding a long sword, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.22it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.22it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+24 a smiling sloth, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.75it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.50it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.23it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+25 a bundle of blue and yellow flowers in a vase, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.33it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.22it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+26 a cat coming through a cat door, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.22it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+27 a pickup truck going up a mountain switchback, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.77it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.21it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+28 a street in Paris, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.76it/s]  4%|▍         | 2/50 [00:00<00:06,  7.79it/s]  6%|▌         | 3/50 [00:00<00:06,  7.51it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.24it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.21it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.10
+==============================
+29 a teddy bear on a skateboard, 4k, clean background
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:05,  8.75it/s]  4%|▍         | 2/50 [00:00<00:06,  7.78it/s]  6%|▌         | 3/50 [00:00<00:06,  7.50it/s]  8%|▊         | 4/50 [00:00<00:06,  7.39it/s] 10%|█         | 5/50 [00:00<00:06,  7.32it/s] 12%|█▏        | 6/50 [00:00<00:06,  7.29it/s] 14%|█▍        | 7/50 [00:00<00:05,  7.26it/s] 16%|█▌        | 8/50 [00:01<00:05,  7.25it/s] 18%|█▊        | 9/50 [00:01<00:05,  7.23it/s] 20%|██        | 10/50 [00:01<00:05,  7.23it/s] 22%|██▏       | 11/50 [00:01<00:05,  7.22it/s] 24%|██▍       | 12/50 [00:01<00:05,  7.22it/s] 26%|██▌       | 13/50 [00:01<00:05,  7.21it/s] 28%|██▊       | 14/50 [00:01<00:04,  7.22it/s] 30%|███       | 15/50 [00:02<00:04,  7.21it/s] 32%|███▏      | 16/50 [00:02<00:04,  7.21it/s] 34%|███▍      | 17/50 [00:02<00:04,  7.21it/s] 36%|███▌      | 18/50 [00:02<00:04,  7.21it/s] 38%|███▊      | 19/50 [00:02<00:04,  7.21it/s] 40%|████      | 20/50 [00:02<00:04,  7.21it/s] 42%|████▏     | 21/50 [00:02<00:04,  7.21it/s] 44%|████▍     | 22/50 [00:03<00:03,  7.21it/s] 46%|████▌     | 23/50 [00:03<00:03,  7.21it/s] 48%|████▊     | 24/50 [00:03<00:03,  7.21it/s] 50%|█████     | 25/50 [00:03<00:03,  7.21it/s] 52%|█████▏    | 26/50 [00:03<00:03,  7.21it/s] 54%|█████▍    | 27/50 [00:03<00:03,  7.21it/s] 56%|█████▌    | 28/50 [00:03<00:03,  7.21it/s] 58%|█████▊    | 29/50 [00:03<00:02,  7.21it/s] 60%|██████    | 30/50 [00:04<00:02,  7.21it/s] 62%|██████▏   | 31/50 [00:04<00:02,  7.21it/s] 64%|██████▍   | 32/50 [00:04<00:02,  7.21it/s] 66%|██████▌   | 33/50 [00:04<00:02,  7.21it/s] 68%|██████▊   | 34/50 [00:04<00:02,  7.21it/s] 70%|███████   | 35/50 [00:04<00:02,  7.21it/s] 72%|███████▏  | 36/50 [00:04<00:01,  7.21it/s] 74%|███████▍  | 37/50 [00:05<00:01,  7.21it/s] 76%|███████▌  | 38/50 [00:05<00:01,  7.21it/s] 78%|███████▊  | 39/50 [00:05<00:01,  7.21it/s] 80%|████████  | 40/50 [00:05<00:01,  7.21it/s] 82%|████████▏ | 41/50 [00:05<00:01,  7.21it/s] 84%|████████▍ | 42/50 [00:05<00:01,  7.21it/s] 86%|████████▌ | 43/50 [00:05<00:00,  7.21it/s] 88%|████████▊ | 44/50 [00:06<00:00,  7.21it/s] 90%|█████████ | 45/50 [00:06<00:00,  7.21it/s] 92%|█████████▏| 46/50 [00:06<00:00,  7.21it/s] 94%|█████████▍| 47/50 [00:06<00:00,  7.21it/s] 96%|█████████▌| 48/50 [00:06<00:00,  7.22it/s] 98%|█████████▊| 49/50 [00:06<00:00,  7.21it/s]100%|██████████| 50/50 [00:06<00:00,  7.22it/s]100%|██████████| 50/50 [00:06<00:00,  7.24it/s]
+Load LoRA latency: 0.00
+End2End inference latency: 7.09
+==============================
+End2End inference latency: 206.08
+Number of prompts: 29
+End2End Throughput: 7.11

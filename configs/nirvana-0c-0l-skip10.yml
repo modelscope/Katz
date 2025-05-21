@@ -1,0 +1,10 @@
+# Log
+log_folder: logs/nirvana-0c-0l-skip10
+# Script
+script: "baselines/run_nirvana.py"
+skipped_steps: 10
+# Dataset
+num_prompts: 30
+# Settings
+num_controlnets: 0
+num_loras: 0

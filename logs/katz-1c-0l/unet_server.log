@@ -1,0 +1,15 @@
+Using EulerDiscreteScheduler
+Total GPUs in the world: 8
+torch.distributed.is_available(): True
+torch.distributed.is_nccl_available(): True
+Args: Namespace(world_size=4, gpu_id=1, rank=1, controlnet_parallel=True, controlnet_parallel_rank=[3], num_controlnets=1, lora_mode='without', load_lora_mode='default', max_lora_num=0, verbose=False, latent_parallel=True)
+World size: 4, rank: 1
+Enable cuda graph: True
+Using customized pipeline_stable_diffusion_xl
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Enable cuda graph: True
+Loading pipeline components...:  14%|█▍        | 1/7 [00:12<01:13, 12.31s/it]Loading pipeline components...:  43%|████▎     | 3/7 [00:12<00:13,  3.44s/it]Loading pipeline components...:  57%|█████▋    | 4/7 [00:13<00:07,  2.40s/it]Loading pipeline components...:  86%|████████▌ | 6/7 [00:13<00:01,  1.24s/it]Loading pipeline components...: 100%|██████████| 7/7 [00:13<00:00,  1.94s/it]
+Start UNet server on GPU 1
+/home/lyangbk/src/DF-Serving/diffusers-hf/src/diffusers/models/unets/unet_2d_blocks.py:1360: FutureWarning: `scale` is deprecated and will be removed in version 1.0.0. The `scale` argument is deprecated and will be ignored. Please remove it, as passing it will raise an error in the future. `scale` should directly be passed while calling the underlying pipeline component i.e., via `cross_attention_kwargs`.
+  deprecate("scale", "1.0.0", deprecation_message)
+/home/lyangbk/src/DF-Serving/diffusers-hf/src/diffusers/models/unets/unet_2d_blocks.py:2619: FutureWarning: `scale` is deprecated and will be removed in version 1.0.0. The `scale` argument is deprecated and will be ignored. Please remove it, as passing it will raise an error in the future. `scale` should directly be passed while calling the underlying pipeline component i.e., via `cross_attention_kwargs`.
+  deprecate("scale", "1.0.0", deprecation_message)

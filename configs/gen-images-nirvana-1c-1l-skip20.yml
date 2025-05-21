@@ -1,0 +1,8 @@
+# Script
+script: "baselines/run_nirvana.py"
+skipped_steps: 20
+# Dataset
+output_image_path: ./output_images/nirvana-1c-1l-skip20
+# Settings
+num_controlnets: 1
+num_loras: 1

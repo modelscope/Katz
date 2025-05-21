@@ -1,0 +1,790 @@
+Args Namespace(num_loras=1, num_controlnets=1)
+Args Namespace(num_loras=1, num_controlnets=1)
+Args Namespace(num_loras=1, num_controlnets=1)
+Args Namespace(num_loras=1, num_controlnets=1)
+distri_config {'world_size': 4, 'rank': 0, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 2, 'device': device(type='cuda', index=0), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e77f0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e4970>}
+0 papercut -subject/scene-a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 4, 'rank': 1, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 2, 'device': device(type='cuda', index=1), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e7d30>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e4df0>}
+0 papercut -subject/scene-a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 4, 'rank': 3, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 2, 'device': device(type='cuda', index=3), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e1cb0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e2e30>}
+0 papercut -subject/scene-a long wooden bench in front of a brick wall, 4k, clean background
+distri_config {'world_size': 4, 'rank': 2, 'height': 1024, 'width': 1024, 'do_classifier_free_guidance': True, 'split_batch': True, 'warmup_steps': 4, 'comm_checkpoint': 60, 'mode': 'corrected_async_gn', 'use_cuda_graph': True, 'parallelism': 'patch', 'split_scheme': 'row', 'verbose': False, 'n_device_per_batch': 2, 'device': device(type='cuda', index=2), 'batch_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e48f0>, 'split_group': <torch.distributed.distributed_c10d.ProcessGroup object at 0x15549f6e4470>}
+0 papercut -subject/scene-a long wooden bench in front of a brick wall, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.587
+[SUYI] inject_adapter time 1.617
+[SUYI] inject_adapter time 1.633
+[SUYI] inject_adapter time 1.585
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.71
+End2End inference latency: 5.39
+==============================
+1 papercut -subject/scene-a cat looking out of a window, 4k, clean background
+1 papercut -subject/scene-a cat looking out of a window, 4k, clean background
+1 papercut -subject/scene-a cat looking out of a window, 4k, clean background
+1 papercut -subject/scene-a cat looking out of a window, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.566
+[SUYI] inject_adapter time 1.606
+[SUYI] inject_adapter time 1.566
+[SUYI] inject_adapter time 1.551
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.31
+End2End inference latency: 4.93
+==============================
+2 papercut -subject/scene-A helicopter flies over Yosemite., 4k, clean background
+2 papercut -subject/scene-A helicopter flies over Yosemite., 4k, clean background
+2 papercut -subject/scene-A helicopter flies over Yosemite., 4k, clean background
+2 papercut -subject/scene-A helicopter flies over Yosemite., 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.551
+[SUYI] inject_adapter time 1.556
+[SUYI] inject_adapter time 1.515
+[SUYI] inject_adapter time 1.555
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.23
+End2End inference latency: 4.85
+==============================
+3 papercut -subject/scene-a handsaw on a table, 4k, clean background
+3 papercut -subject/scene-a handsaw on a table, 4k, clean background
+3 papercut -subject/scene-a handsaw on a table, 4k, clean background
+3 papercut -subject/scene-a handsaw on a table, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.699
+[SUYI] inject_adapter time 1.713
+[SUYI] inject_adapter time 1.725
+[SUYI] inject_adapter time 1.740
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.39
+End2End inference latency: 5.11
+==============================
+4 papercut -subject/scene-A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 papercut -subject/scene-A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 papercut -subject/scene-A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+4 papercut -subject/scene-A smiling sloth wearing a bowtie and holding a quarterstaff and a big book. A shiny VW van parked on grass., 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.519
+[SUYI] inject_adapter time 1.531
+[SUYI] inject_adapter time 1.535
+[SUYI] inject_adapter time 1.520
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.21
+End2End inference latency: 5.17
+==============================
+5 papercut -subject/scene-a large present with a red ribbon, 4k, clean background
+5 papercut -subject/scene-a large present with a red ribbon, 4k, clean background
+5 papercut -subject/scene-a large present with a red ribbon, 4k, clean background
+5 papercut -subject/scene-a large present with a red ribbon, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.572
+[SUYI] inject_adapter time 1.576
+[SUYI] inject_adapter time 1.605
+[SUYI] inject_adapter time 1.567
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.36
+End2End inference latency: 4.99
+==============================
+6 papercut -subject/scene-a cat reading a book, 4k, clean background
+6 papercut -subject/scene-a cat reading a book, 4k, clean background
+6 papercut -subject/scene-a cat reading a book, 4k, clean background
+6 papercut -subject/scene-a cat reading a book, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.498
+[SUYI] inject_adapter time 1.592
+[SUYI] inject_adapter time 1.603
+n_device_per_batch:  2
+[SUYI] inject_adapter time 1.598
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.34
+End2End inference latency: 5.00
+==============================
+7 papercut -subject/scene-the Beatles crossing Abbey road, 4k, clean background
+7 papercut -subject/scene-the Beatles crossing Abbey road, 4k, clean background
+7 papercut -subject/scene-the Beatles crossing Abbey road, 4k, clean background
+7 papercut -subject/scene-the Beatles crossing Abbey road, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.572
+[SUYI] inject_adapter time 1.644
+[SUYI] inject_adapter time 1.659
+[SUYI] inject_adapter time 1.658
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.31
+End2End inference latency: 5.50
+==============================
+8 papercut -subject/scene-a woman singing into a microphone, 4k, clean background
+8 papercut -subject/scene-a woman singing into a microphone, 4k, clean background
+8 papercut -subject/scene-a woman singing into a microphone, 4k, clean background
+8 papercut -subject/scene-a woman singing into a microphone, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.555
+[SUYI] inject_adapter time 1.504
+n_device_per_batch:  2
+n_device_per_batch:  2
+[SUYI] inject_adapter time 1.607
+[SUYI] inject_adapter time 1.635
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.35
+End2End inference latency: 5.06
+==============================
+9 papercut -subject/scene-a white robot passing a soccer ball to a red robot, 4k, clean background
+9 papercut -subject/scene-a white robot passing a soccer ball to a red robot, 4k, clean background
+9 papercut -subject/scene-a white robot passing a soccer ball to a red robot, 4k, clean background
+9 papercut -subject/scene-a white robot passing a soccer ball to a red robot, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.512
+[SUYI] inject_adapter time 1.561
+[SUYI] inject_adapter time 1.561
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+[SUYI] inject_adapter time 1.589
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.25
+End2End inference latency: 5.26
+==============================
+10 papercut -subject/scene-a plant growing on the side of a brick wall, 4k, clean background
+10 papercut -subject/scene-a plant growing on the side of a brick wall, 4k, clean background
+10 papercut -subject/scene-a plant growing on the side of a brick wall, 4k, clean background
+10 papercut -subject/scene-a plant growing on the side of a brick wall, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.552
+[SUYI] inject_adapter time 1.580
+[SUYI] inject_adapter time 1.600
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+[SUYI] inject_adapter time 1.555
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.26
+End2End inference latency: 5.01
+==============================
+11 papercut -subject/scene-snow covering the Great Pyramid, 4k, clean background
+11 papercut -subject/scene-snow covering the Great Pyramid, 4k, clean background
+11 papercut -subject/scene-snow covering the Great Pyramid, 4k, clean background
+11 papercut -subject/scene-snow covering the Great Pyramid, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.583
+[SUYI] inject_adapter time 1.599
+[SUYI] inject_adapter time 1.557
+[SUYI] inject_adapter time 1.591
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.28
+End2End inference latency: 5.01
+==============================
+12 papercut -subject/scene-a photograph of a house on a mountain, 4k, clean background
+12 papercut -subject/scene-a photograph of a house on a mountain, 4k, clean background
+12 papercut -subject/scene-a photograph of a house on a mountain, 4k, clean background
+12 papercut -subject/scene-a photograph of a house on a mountain, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.542
+[SUYI] inject_adapter time 1.555
+n_device_per_batch:  2
+n_device_per_batch:  2
+[SUYI] inject_adapter time 1.543
+[SUYI] inject_adapter time 1.530
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.23
+End2End inference latency: 5.30
+==============================
+13 papercut -subject/scene-an owl standing on a wire, 4k, clean background
+13 papercut -subject/scene-an owl standing on a wire, 4k, clean background
+13 papercut -subject/scene-an owl standing on a wire, 4k, clean background
+13 papercut -subject/scene-an owl standing on a wire, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.605
+[SUYI] inject_adapter time 1.630
+n_device_per_batch:  2
+n_device_per_batch:  2
+[SUYI] inject_adapter time 1.634
+[SUYI] inject_adapter time 1.648
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.55
+End2End inference latency: 5.18
+==============================
+14 papercut -subject/scene-a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 papercut -subject/scene-a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 papercut -subject/scene-a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+14 papercut -subject/scene-a kids' book cover with an illustration of white dog driving a red pickup truck, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.588
+[SUYI] inject_adapter time 1.551
+[SUYI] inject_adapter time 1.581
+[SUYI] inject_adapter time 1.597
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.33
+End2End inference latency: 4.95
+==============================
+15 papercut -subject/scene-a subway train coming out of a tunnel, 4k, clean background
+15 papercut -subject/scene-a subway train coming out of a tunnel, 4k, clean background
+15 papercut -subject/scene-a subway train coming out of a tunnel, 4k, clean background
+15 papercut -subject/scene-a subway train coming out of a tunnel, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.554
+[SUYI] inject_adapter time 1.562
+[SUYI] inject_adapter time 1.571
+[SUYI] inject_adapter time 1.618
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.27
+End2End inference latency: 4.90
+==============================
+16 papercut -subject/scene-a stone path leading away from a fountain, 4k, clean background
+16 papercut -subject/scene-a stone path leading away from a fountain, 4k, clean background
+16 papercut -subject/scene-a stone path leading away from a fountain, 4k, clean background
+16 papercut -subject/scene-a stone path leading away from a fountain, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.509
+[SUYI] inject_adapter time 1.544
+[SUYI] inject_adapter time 1.504
+[SUYI] inject_adapter time 1.520
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.24
+End2End inference latency: 4.87
+==============================
+17 papercut -subject/scene-an antique car by a beach, 4k, clean background
+17 papercut -subject/scene-an antique car by a beach, 4k, clean background
+17 papercut -subject/scene-an antique car by a beach, 4k, clean background
+17 papercut -subject/scene-an antique car by a beach, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.559
+[SUYI] inject_adapter time 1.548
+[SUYI] inject_adapter time 1.539
+[SUYI] inject_adapter time 1.555
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.27
+End2End inference latency: 5.61
+==============================
+18 papercut -subject/scene-black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 papercut -subject/scene-black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 papercut -subject/scene-black hi-top sneakers with the Nike swoosh, 4k, clean background
+18 papercut -subject/scene-black hi-top sneakers with the Nike swoosh, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.563
+[SUYI] inject_adapter time 1.570
+[SUYI] inject_adapter time 1.554
+[SUYI] inject_adapter time 1.570
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.25
+End2End inference latency: 5.14
+==============================
+19 papercut -subject/scene-a witch riding a broom, 4k, clean background
+19 papercut -subject/scene-a witch riding a broom, 4k, clean background
+19 papercut -subject/scene-a witch riding a broom, 4k, clean background
+19 papercut -subject/scene-a witch riding a broom, 4k, clean background
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'text_encoder_2', 'tokenizer_2', 'text_encoder', 'vae', 'tokenizer', 'scheduler', 'image_encoder', 'feature_extractor', 'unet'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'image_encoder', 'feature_extractor', 'vae', 'text_encoder', 'tokenizer', 'text_encoder_2', 'scheduler', 'unet', 'tokenizer_2'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'tokenizer', 'scheduler', 'tokenizer_2', 'text_encoder_2', 'unet', 'image_encoder', 'vae', 'text_encoder', 'feature_extractor'}
+pipeline_class <class 'diffusers.pipelines.stable_diffusion_xl.pipeline_stable_diffusion_xl_controlnet.StableDiffusionXLPipelineControlNet'>
+expected_modules {'vae', 'tokenizer_2', 'scheduler', 'text_encoder_2', 'tokenizer', 'unet', 'image_encoder', 'feature_extractor', 'text_encoder'}
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+LoraModel not implement _pre_injection_hook() yet
+[SUYI] inject_adapter time 1.520
+[SUYI] inject_adapter time 1.539
+[SUYI] inject_adapter time 1.544
+[SUYI] inject_adapter time 1.550
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+n_device_per_batch:  2
+Pre-run
+Pre-run
+Pre-run
+Pre-run
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+counters:  [0, 5, 6]
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+DistriSDXLPipeline initialized. Prepare done.
+Load LoRA latency: 2.28
+End2End inference latency: 4.91
+==============================
+Number of prompts: 19
+End2End Throughput: 0.05

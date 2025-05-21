@@ -1,0 +1,41 @@
+Using EulerDiscreteScheduler
+In unet_2d_condition.py
+Total GPUs in the world: 8
+torch.distributed.is_available(): True
+torch.distributed.is_nccl_available(): True
+Args: Namespace(world_size=6, gpu_id=5, rank=5, dst_rank=1, controlnet_parallel_rank=[3, 5], verbose=False)
+World size: 6, rank: 5
+Enable cuda graph: True
+load_state_dict: safetensors.torch.load_file(/home/lyangbk/.cache/huggingface/hub/models--diffusers--controlnet-depth-sdxl-1.0/snapshots/17bb97973f29801224cd66f192c5ffacf82648b4/diffusion_pytorch_model.fp16.safetensors)
+Start controlnet server on GPU 5
+Avg: 0.5435, Sum: 27.1728
+Avg: 0.0137, Sum: 0.6866
+Avg: 0.0137, Sum: 0.6866
+Avg: 0.0137, Sum: 0.6866
+Avg: 0.0137, Sum: 0.6865
+Avg: 0.0137, Sum: 0.6863
+Avg: 0.0137, Sum: 0.6863
+Avg: 0.0137, Sum: 0.6864
+Avg: 0.0137, Sum: 0.6866
+Avg: 0.0137, Sum: 0.6865
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6868
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6868
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6869
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6869
+Avg: 0.0137, Sum: 0.6868
+Avg: 0.0137, Sum: 0.6870
+Avg: 0.0137, Sum: 0.6869
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6869
+Avg: 0.0137, Sum: 0.6868
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6867
+Avg: 0.0137, Sum: 0.6869
+Avg: 0.0137, Sum: 0.6869
+Avg: 0.0137, Sum: 0.6868

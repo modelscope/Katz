@@ -1,0 +1,810 @@
+Using EulerDiscreteScheduler
+In unet_2d_condition.py
+Using pipeline pipeline_controlnet_sd_xl_suyi.py
+Number of GPUs: 8
+Available GPU 0: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 1: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 2: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 3: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 4: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 5: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 6: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Available GPU 7: _CudaDeviceProperties(name='NVIDIA H800', major=9, minor=0, total_memory=81007MB, multi_processor_count=132)
+Args: Namespace(num_images=1, serve_mode='without', world_size=6, gpu_id=0, rank=0, controlnet_parallel=True, controlnet_parallel_rank=[2, 4], num_controlnets=2, lora_mode='sync', load_lora_mode='async', max_lora_num=2, latent_parallel=True, verbose=False)
+World size: 6, rank: 0
+Enable cuda graph: True
+load_state_dict: safetensors.torch.load_file(/home/lyangbk/.cache/huggingface/hub/models--diffusers--controlnet-depth-sdxl-1.0/snapshots/17bb97973f29801224cd66f192c5ffacf82648b4/diffusion_pytorch_model.fp16.safetensors)
+load_state_dict: safetensors.torch.load_file(/home/lyangbk/.cache/huggingface/hub/models--madebyollin--sdxl-vae-fp16-fix/snapshots/207b116dae70ace3637169f1ddd2434b91b3a8cd/diffusion_pytorch_model.safetensors)
+Using customized pipeline_stable_diffusion_xl
+
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]
+Loading pipeline components...:  43%|████▎     | 3/7 [00:12<00:16,  4.09s/it]
+Loading pipeline components...:  57%|█████▋    | 4/7 [00:12<00:08,  2.87s/it]
+Loading pipeline components...:  71%|███████▏  | 5/7 [00:12<00:04,  2.06s/it]
+Loading pipeline components...: 100%|██████████| 7/7 [00:12<00:00,  1.85s/it]
+Enable cuda graph: True
+load_state_dict: safetensors.torch.load_file(/home/lyangbk/.cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0/snapshots/462165984030d82259a11f4367a4eed129e94a7b/unet/diffusion_pytorch_model.safetensors)
+[Init] start_loading_flag_np: [0 0]
+default_unet_state_dict length 1680
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  2%|▏         | 1/50 [00:28<23:32, 28.84s/it]
+ 10%|█         | 5/50 [00:28<03:14,  4.32s/it]
+ 18%|█▊        | 9/50 [00:29<01:20,  1.97s/it]
+ 26%|██▌       | 13/50 [00:29<00:41,  1.12s/it]
+ 34%|███▍      | 17/50 [00:29<00:23,  1.43it/s]
+ 42%|████▏     | 21/50 [00:29<00:13,  2.16it/s]
+ 50%|█████     | 25/50 [00:29<00:07,  3.15it/s]
+ 58%|█████▊    | 29/50 [00:29<00:04,  4.44it/s]
+ 66%|██████▌   | 33/50 [00:29<00:02,  6.09it/s]
+ 74%|███████▍  | 37/50 [00:30<00:01,  8.12it/s]
+ 82%|████████▏ | 41/50 [00:30<00:00, 10.50it/s]
+ 90%|█████████ | 45/50 [00:30<00:00, 13.14it/s]
+ 98%|█████████▊| 49/50 [00:30<00:00, 15.90it/s]
+100%|██████████| 50/50 [00:30<00:00,  1.64it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.13
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 0
+Total denoising time: 30.43
+Total controlnet time: 0.00
+Total unet time: 29.38
+Load LoRA latency: 0.00
+End2End inference latency: 40.36
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.20it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.47it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.56it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.60it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.13it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.93it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.18it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.93it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.18it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.17it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.88it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.40it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.00it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.61
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.51it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.61it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.64it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.67it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.06it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.88it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.14it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.89it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.21it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.18it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.90it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.41it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.00it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.61
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.53it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.64it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.65it/s]
+ 40%|████      | 20/50 [00:00<00:01, 18.97it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.80it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.07it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.84it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.17it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.16it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.88it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.39it/s]
+100%|██████████| 50/50 [00:01<00:00, 26.97it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.61
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.56it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.68it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.22it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 22.01it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.24it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.97it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.27it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.23it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.93it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.43it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.08it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.49it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.60it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.66it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.66it/s]
+ 40%|████      | 20/50 [00:00<00:00, 30.68it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 19.65it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.27it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.39it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 26.06it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.34it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.29it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 28.98it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.09it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 20
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.53it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.64it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.66it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.65it/s]
+ 40%|████      | 20/50 [00:00<00:01, 18.86it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.70it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 23.99it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.78it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.12it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.14it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.87it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.39it/s]
+100%|██████████| 50/50 [00:01<00:00, 26.92it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.86
+Total controlnet time: 0.00
+Total unet time: 1.61
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.55it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.66it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.67it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.20it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 22.00it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.23it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.97it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.27it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.23it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.94it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.45it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.07it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.47it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.59it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.63it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.65it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.22it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 22.01it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.24it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.97it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.27it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.24it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.94it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.44it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.08it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.51it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.63it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.65it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.66it/s]
+ 40%|████      | 20/50 [00:00<00:01, 16.55it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 19.61it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.23it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.36it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 26.04it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.30it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.25it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 28.94it/s]
+100%|██████████| 50/50 [00:01<00:00, 25.78it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 19
+Total denoising time: 1.94
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 2.08
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.54it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.66it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.69it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.22it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 22.01it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.25it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.98it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.30it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.26it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.96it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.46it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.09it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 19
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.55it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.62it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.65it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.67it/s]
+ 40%|████      | 20/50 [00:00<00:00, 30.68it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 19.71it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.31it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.43it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 26.07it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.34it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.28it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 28.97it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.11it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 20
+Total denoising time: 1.84
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.51it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.61it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.64it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.66it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.04it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.86it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.12it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.87it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.21it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.19it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.90it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.42it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.00it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.43it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.58it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.62it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.64it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.15it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.94it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.19it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.93it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.24it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.21it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.91it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.42it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.03it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.50it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.62it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.65it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.67it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.14it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.95it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.19it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.94it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.26it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.24it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.94it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.45it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.05it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 19
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.55it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.64it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.67it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.67it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.19it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 21.99it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.23it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.96it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.28it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.24it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.94it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.45it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.07it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 19
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.58it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.63it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.67it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.68it/s]
+ 40%|████      | 20/50 [00:00<00:00, 30.68it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 19.45it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.09it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.25it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 25.95it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.25it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.22it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 28.92it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.00it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 20
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.57it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.66it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.70it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:01, 16.86it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 19.91it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.49it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.58it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 26.20it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.41it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.34it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.01it/s]
+100%|██████████| 50/50 [00:01<00:00, 25.95it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.93
+Total controlnet time: 0.00
+Total unet time: 1.68
+Load LoRA latency: 0.00
+End2End inference latency: 2.07
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.60it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.67it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.70it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:01, 17.08it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 20.11it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.66it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.71it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 26.31it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.52it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.41it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.06it/s]
+100%|██████████| 50/50 [00:01<00:00, 26.07it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.19
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.92
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 2.05
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.56it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.67it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.68it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.18it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 21.97it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.22it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.95it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.26it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.22it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.93it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.43it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.06it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.57it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.64it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.64it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.65it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.12it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.91it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.17it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.91it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.22it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.20it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.91it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.42it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.03it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.53it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.63it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.66it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.68it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.13it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.94it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.19it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.93it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.25it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.21it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.92it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.43it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.04it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.52it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.64it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.71it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.13it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.94it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.20it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.95it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.27it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.24it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.94it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.46it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.06it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.57it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.64it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.07it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.88it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.15it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.90it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.24it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.22it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.92it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.44it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.03it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.99
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.53it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.23it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 22.02it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.26it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.99it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.30it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.26it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.95it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.46it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.09it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.57it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.68it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.68it/s]
+ 40%|████      | 20/50 [00:00<00:01, 16.77it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 19.83it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 22.40it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 24.51it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 26.16it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 27.40it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.34it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.01it/s]
+100%|██████████| 50/50 [00:01<00:00, 25.91it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.93
+Total controlnet time: 0.00
+Total unet time: 1.69
+Load LoRA latency: 0.00
+End2End inference latency: 2.07
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.56it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.64it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.68it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.69it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.14it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 21.95it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.20it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.95it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.26it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.24it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.94it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.45it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.06it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.61
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.59it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.66it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.68it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.23it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 22.02it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.26it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.99it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.30it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.27it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.96it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.47it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.10it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 17
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.55it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.66it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:00, 30.69it/s]
+ 48%|████▊     | 24/50 [00:01<00:01, 17.05it/s]
+ 56%|█████▌    | 28/50 [00:01<00:01, 19.96it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 22.46it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 24.51it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 26.14it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 27.38it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 28.31it/s]
+100%|██████████| 50/50 [00:01<00:00, 25.83it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 20
+Total denoising time: 1.94
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 2.07
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.54it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.69it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.19it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 21.99it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.25it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.98it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.29it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.25it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.95it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.45it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.08it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  8%|▊         | 4/50 [00:00<00:01, 30.55it/s]
+ 16%|█▌        | 8/50 [00:00<00:01, 30.65it/s]
+ 24%|██▍       | 12/50 [00:00<00:01, 30.69it/s]
+ 32%|███▏      | 16/50 [00:00<00:01, 30.70it/s]
+ 40%|████      | 20/50 [00:00<00:01, 19.19it/s]
+ 48%|████▊     | 24/50 [00:00<00:01, 21.98it/s]
+ 56%|█████▌    | 28/50 [00:01<00:00, 24.24it/s]
+ 64%|██████▍   | 32/50 [00:01<00:00, 25.98it/s]
+ 72%|███████▏  | 36/50 [00:01<00:00, 27.28it/s]
+ 80%|████████  | 40/50 [00:01<00:00, 28.25it/s]
+ 88%|████████▊ | 44/50 [00:01<00:00, 28.95it/s]
+ 96%|█████████▌| 48/50 [00:01<00:00, 29.45it/s]
+100%|██████████| 50/50 [00:01<00:00, 27.08it/s]
+Fuse LoRA to unet
+Fuse LoRA to text_encoder and text_encoder_2
+Patch latency: 0.12
+Patched ['TheLastBen/William_Eggleston_Style_SDXL', 'TheLastBen/Filmic'] at step 18
+Total denoising time: 1.85
+Total controlnet time: 0.00
+Total unet time: 1.60
+Load LoRA latency: 0.00
+End2End inference latency: 1.98
+==============================
+End2End inference latency: 77.91
+Number of prompts: 30
+End2End Throughput: 2.60
+Shut down all LoRA loaders [100 100]
+/home/lyangbk/.conda/envs/sd-serving/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 3417 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

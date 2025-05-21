@@ -1,0 +1,721 @@
+Using EulerDiscreteScheduler
+Args Namespace(serve_mode='standard', lora_mode='full', load_lora_mode='default', lora_loader_id=0, lora_loader_num=2)
+Load Json latency: 0.050940
+Enable cuda graph: True
+Using customized pipeline_stable_diffusion_xl
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 17.19it/s]Enable cuda graph: True
+Loading pipeline components...:  57%|█████▋    | 4/7 [00:13<00:12,  4.04s/it]Loading pipeline components...:  71%|███████▏  | 5/7 [00:18<00:08,  4.31s/it]Loading pipeline components...: 100%|██████████| 7/7 [00:18<00:00,  2.69s/it]
+Warm LoRA file loading done
+Before entering busy waiting [0 0]
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Invoked with 2
+Invoked 2
+Starting LoRA loading
+========= Complete LoRA loading =========
+Waiting to be invoked to load LoRA
+Traceback (most recent call last):
+  File "/home/lyangbk/src/DF-Serving/load_lora_shm_multi.py", line 91, in <module>
+    if cur_state == 0:
+KeyboardInterrupt
+/home/lyangbk/.conda/envs/sd-serving/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1445 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
