@@ -58,7 +58,7 @@ Please cite our paper if it is helpful to your research.
 ```bibtex
 @inproceedings{Katz2025,
   title = {Katz: Efficient Workflow Serving for Diffusion Models with Many Adapters},
-  author = {Li, Suyi and Yang, Lingyun and Jiang, Xiaoxiao and Lu, Hanfeng and Di, Zhipeng and Lu, Weiyi and Chen, Jiawei and Liu, Kan and Yu, Yinghao and Lan, Tao and Yang, Guodong and Qu, Lin and Zhang, Liping and Wang, Wei},
+  author = {Li, Suyi and Yang, Lingyun and Jiang, Xiaoxiao and Lu, Hanfeng and An, Dakai and Di, Zhipeng and Lu, Weiyi and Chen, Jiawei and Liu, Kan and Yu, Yinghao and Lan, Tao and Yang, Guodong and Qu, Lin and Zhang, Liping and Wang, Wei},
   booktitle = {Proc. USENIX ATC},
   year = {2025}
 }
