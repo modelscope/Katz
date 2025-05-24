@@ -42,7 +42,9 @@ $ ENABLE_CHANNELS_LAST=1 python gen_unet_state_dict.py  # Generates default_unet
 Export the environment variable pointing to the reference images (available in our [Modelscope repository](https://modelscope.cn/datasets/mental2008/Katz-cached-image-results)):
 
 ```bash
-$ export ref_image_path=/path/to/Katz-cached-image-results/images/images_sdxl_t2i
+# The command is: export ref_image_path=/path/to/Katz-cached-image-results/images/images_sdxl_t2i
+# In the provided container, run the following command.
+$ export ref_image_path=/workspace/Katz-cached-image-results/images/images_sdxl_t2i
 ```
 
 In the provided container, the ``ref_image_path=/workspace/Katz-cached-image-results/images/images_sdxl_t2i``.
