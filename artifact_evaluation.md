@@ -7,7 +7,7 @@ To simplify reproducibility, we provide an off-the-shelf Docker image, `mental20
 ## 🚀 Run Katz with Docker
 
 ```bash
-# Pull the prebuilt Docker image
+# We have pulled the image on the provided machine. You can skip this. On your machine, you can pull the prebuilt Docker image with the following command.
 $ docker pull mental2008/katz-ae:latest
 
 # Run the container in detached mode with GPU support
