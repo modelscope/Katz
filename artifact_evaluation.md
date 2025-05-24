@@ -11,7 +11,7 @@ To simplify reproducibility, we provide an off-the-shelf Docker image, `mental20
 $ docker pull mental2008/katz-ae:latest
 
 # Run the container in detached mode with GPU support
-$ docker run -d --gpus all --rm --name katz-ae mental2008/katz-ae:latest sleep infinity
+$ docker run -d --gpus all --rm --name katz-ae --shm-size 8G mental2008/katz-ae:latest sleep infinity
 
 # Access the container's shell
 $ docker exec -it katz-ae bash
@@ -56,6 +56,7 @@ Evaluate Katz under different adapter configurations using provided configuratio
 $ python run_katz.py configs/katz-3c-2l.yml
 
 # Other configurations
+$ python run_katz.py configs/katz-0c-0l.yml  # 0 ControlNet, 0 LoRA
 $ python run_katz.py configs/katz-1c-1l.yml  # 1 ControlNet, 1 LoRA
 $ python run_katz.py configs/katz-2c-2l.yml  # 2 ControlNets, 2 LoRAs
 ```
@@ -69,6 +70,7 @@ $ python run_katz.py configs/katz-2c-2l.yml  # 2 ControlNets, 2 LoRAs
 $ python baselines/run_baseline.py configs/diffusers-3c-2l.yml
 
 # Other configurations
+$ python baselines/run_baseline.py configs/diffusers-0c-0l.yml  # 0 ControlNet, 0 LoRA
 $ python baselines/run_baseline.py configs/diffusers-1c-1l.yml  # 1 ControlNet, 1 LoRA
 $ python baselines/run_baseline.py configs/diffusers-2c-2l.yml  # 2 ControlNets, 2 LoRAs
 ```
@@ -88,8 +90,13 @@ Then run Nirvana with different configurations:
 python baselines/run_baseline.py configs/nirvana-3c-2l-skip10.yml
 
 # Other configurations
+$ python baselines/run_baseline.py configs/nirvana-0c-0l-skip10.yml  # 0 ControlNet, 0 LoRA, 10 skipped steps
 $ python baselines/run_baseline.py configs/nirvana-1c-1l-skip10.yml  # 1 ControlNet, 1 LoRA, 10 skipped steps
+$ python baselines/run_baseline.py configs/nirvana-2c-2l-skip10.yml  # 2 ControlNet, 2 LoRA, 10 skipped steps
+$ python baselines/run_baseline.py configs/nirvana-0c-0l-skip20.yml  # 0 ControlNets, 0 LoRAs, 20 skipped steps
+$ python baselines/run_baseline.py configs/nirvana-1c-1l-skip20.yml  # 1 ControlNets, 1 LoRAs, 20 skipped steps
 $ python baselines/run_baseline.py configs/nirvana-2c-2l-skip20.yml  # 2 ControlNets, 2 LoRAs, 20 skipped steps
+$ python baselines/run_baseline.py configs/nirvana-3c-2l-skip20.yml  # 3 ControlNets, 2 LoRAs, 20 skipped steps
 ```
 
 #### 3. DistriFusion
@@ -103,6 +110,7 @@ For the DistriFusion baseline, refer to the [GitHub repository](https://github.c
 Generate performance comparison plots:
 
 ```bash
+$ cd /workspace/Katz
 $ python plot_end2end_latency.py
 ```
 
@@ -114,7 +122,7 @@ Our image quality evaluation ensures that **performance optimizations** do not c
 
 ### 1. Generate Test Images
 
-Run the following command to generate images with different configurations.
+We have cached the generated images. Generating all images will take hours. You can run the following command to generate images with different configurations.
 
 ```bash
 # Generate images with Katz (1 ControlNet, 2 LoRAs example)
@@ -130,6 +138,7 @@ $ python baselines/run_baseline.py configs/gen-images-nirvana-1c-1l-skip10.yml  
 Install CLIP for evaluation:
 
 ```bash
+$ conda activate katz
 $ pip install git+https://github.com/openai/CLIP.git
 ```
 
@@ -137,24 +146,24 @@ $ pip install git+https://github.com/openai/CLIP.git
 
 ```bash
 # CLIP score
-$ python baselines/eval_images.py --metric clip --lora-num 1
+$ python baselines/eval_images.py --metric clip --lora-num 1 --root-dir /workspace/Katz-cached-image-results/images
 
 # FID score
-$ python baselines/eval_images.py --metric fid --lora-num 1
+$ python baselines/eval_images.py --metric fid --lora-num 1 --root-dir /workspace/Katz-cached-image-results/images
 
 # SSIM score
-$ python baselines/eval_images.py --metric ssim --lora-num 1
+$ python baselines/eval_images.py --metric ssim --lora-num 1 --root-dir /workspace/Katz-cached-image-results/images
 ```
 
 #### Two LoRAs Evaluation (Filmic + Photography)
 
 ```bash
 # CLIP score
-$ python baselines/eval_images.py --metric clip --lora-num 2
+$ python baselines/eval_images.py --metric clip --lora-num 2 --root-dir /workspace/Katz-cached-image-results/images
 
 # FID score
-$ python baselines/eval_images.py --metric fid --lora-num 2
+$ python baselines/eval_images.py --metric fid --lora-num 2 --root-dir /workspace/Katz-cached-image-results/images
 
 # SSIM score
-$ python baselines/eval_images.py --metric ssim --lora-num 2
+$ python baselines/eval_images.py --metric ssim --lora-num 2 --root-dir /workspace/Katz-cached-image-results/images
 ```
