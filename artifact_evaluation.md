@@ -81,7 +81,7 @@ $ python baselines/run_baseline.py configs/diffusers-2c-2l.yml  # 2 ControlNets,
 
 First, generate the cached images required by Nirvana. The cached images will be saved in the `./images_sdxl_t2i_nirvana_cache/` directory.
 
-You can skip this step. Note that the process of generating these images takes hours. Therefore, we have generated them and cached them in the provided container. 
+**You can skip this step.** Note that the process of generating these images takes hours. Therefore, we have generated them and cached them in the provided container. 
 
 ```bash
 $ python baselines/gen_partiprompts_detail_t2i_nirvana_cache.py
@@ -126,7 +126,7 @@ Our image quality evaluation ensures that **performance optimizations** do not c
 
 ### 1. Generate Test Images
 
-We have cached the generated images. Generating all images will take hours. You can run the following command to generate images with different configurations.
+**We have cached the generated images.** Generating all images will take hours. You can run the following command to generate images with different configurations.
 
 ```bash
 # Generate images with Katz (1 ControlNet, 2 LoRAs example)
