@@ -27,7 +27,7 @@ $ export ref_image_path=/workspace/Katz-cached-image-results/images/images_sdxl_
 
 ### 1. Generate UNet State Dictionaries
 
-Before running experiments, generate state dictionaries for the UNet model (used for restoration):
+Before running experiments, go to the project directory and generate state dictionaries for the UNet model (used for restoration):
 
 ```bash
 # Generate default state dictionary (standard layout)
@@ -44,6 +44,8 @@ Export the environment variable pointing to the reference images (available in o
 ```bash
 $ export ref_image_path=/path/to/Katz-cached-image-results/images/images_sdxl_t2i
 ```
+
+In the provided container, the ``ref_image_path=/workspace/Katz-cached-image-results/images/images_sdxl_t2i``.
 
 ## 🚀 End-to-End Performance
 
