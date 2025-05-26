@@ -6,6 +6,8 @@ To simplify reproducibility, we provide an off-the-shelf Docker image, `mental20
 
 ## 🚀 Run Katz with Docker
 
+**We have pulled the image on the provided machine**, as its size is nearly 100 GiB.
+
 ```bash
 # We have pulled the image on the provided machine. You can skip this. On your machine, you can pull the prebuilt Docker image with the following command.
 $ docker pull mental2008/katz-ae:latest
