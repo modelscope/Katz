@@ -32,6 +32,9 @@ $ export ref_image_path=/workspace/Katz-cached-image-results/images/images_sdxl_
 Before running experiments, go to the project directory and generate state dictionaries for the UNet model (used for restoration):
 
 ```bash
+# Go to the project directory
+$ cd /workspace/Katz
+
 # Generate default state dictionary (standard layout)
 $ ENABLE_CHANNELS_LAST=0 python gen_unet_state_dict.py  # Generates default_unet_state_dict.pt
 
