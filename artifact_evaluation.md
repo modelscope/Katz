@@ -133,7 +133,7 @@ Our image quality evaluation ensures that **performance optimizations** do not c
 
 ### 1. Generate Test Images
 
-**We have cached the generated images.** Generating all images will take hours. You can run the following command to generate images with different configurations.
+**We have cached the generated images.** **And you can skip this step.** Generating all images will take hours. You can run the following command to generate images with different configurations.
 
 ```bash
 # Generate images with Katz (1 ControlNet, 2 LoRAs example)
@@ -155,6 +155,8 @@ $ pip install git+https://github.com/openai/CLIP.git
 
 #### Single LoRA Evaluation (Papercut)
 
+*It takes minutes to calculate those scores.*
+
 ```bash
 # CLIP score
 $ python baselines/eval_images.py --metric clip --lora-num 1 --root-dir /workspace/Katz-cached-image-results/images
@@ -167,6 +169,8 @@ $ python baselines/eval_images.py --metric ssim --lora-num 1 --root-dir /workspa
 ```
 
 #### Two LoRAs Evaluation (Filmic + Photography)
+
+*It takes minutes to calculate those scores.*
 
 ```bash
 # CLIP score
