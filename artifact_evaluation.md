@@ -35,10 +35,10 @@ Before running experiments, go to the project directory and generate state dicti
 # Go to the project directory
 $ cd /workspace/Katz
 
-# Generate default state dictionary (standard layout)
+# Generate default state dictionary (standard layout). Note that this can take minutes.
 $ ENABLE_CHANNELS_LAST=0 python gen_unet_state_dict.py  # Generates default_unet_state_dict.pt
 
-# Generate state dictionary with channels-last memory format
+# Generate state dictionary with channels-last memory format. Note that this can take minutes.
 $ ENABLE_CHANNELS_LAST=1 python gen_unet_state_dict.py  # Generates default_unet_state_dict_channels_last.pt
 ```
 
