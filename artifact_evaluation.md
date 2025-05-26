@@ -118,7 +118,7 @@ For the DistriFusion baseline, refer to the [GitHub repository](https://github.c
 
 ### Performance Visualization
 
-Generate performance comparison plots:
+Generate performance comparison plots using the following commands. Note that we plot the results of setting 0C/0L, 1C/1L, 2C/2L, and 3C/2C, here. You can compare the results with those in Figure 14.
 
 ```bash
 $ cd /workspace/Katz
