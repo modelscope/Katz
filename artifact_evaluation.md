@@ -122,6 +122,7 @@ Generate performance comparison plots using the following commands. Note that we
 
 ```bash
 $ cd /workspace/Katz
+$ source activate katz
 $ python plot_end2end_latency.py
 ```
 
